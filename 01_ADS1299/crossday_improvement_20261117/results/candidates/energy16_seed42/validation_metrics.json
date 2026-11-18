@@ -1,0 +1,10 @@
+{
+  "candidate": "energy16_seed42",
+  "architecture": "energy16",
+  "family": "energy",
+  "seed": 42,
+  "best_epoch": 110,
+  "epochs_run": 110,
+  "validation_accuracy": 1.0,
+  "validation_loss": 0.1281856894493103
+}

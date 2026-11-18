@@ -1,0 +1,10 @@
+{
+  "candidate": "hybrid8_seed42",
+  "architecture": "hybrid8",
+  "family": "hybrid",
+  "seed": 42,
+  "best_epoch": 109,
+  "epochs_run": 110,
+  "validation_accuracy": 0.9609375,
+  "validation_loss": 0.3388950824737549
+}

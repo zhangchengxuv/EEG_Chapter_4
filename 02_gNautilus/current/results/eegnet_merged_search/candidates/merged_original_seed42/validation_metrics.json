@@ -1,0 +1,10 @@
+{
+  "candidate": "merged_original_seed42",
+  "architecture": "merged_original",
+  "kind": "baseline",
+  "seed": 42,
+  "best_epoch": 3,
+  "epochs_run": 63,
+  "validation_accuracy": 0.35714285714285715,
+  "validation_loss": 1.385677695274353
+}

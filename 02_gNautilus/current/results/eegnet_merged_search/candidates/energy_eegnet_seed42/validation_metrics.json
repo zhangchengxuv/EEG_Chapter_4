@@ -1,0 +1,10 @@
+{
+  "candidate": "energy_eegnet_seed42",
+  "architecture": "energy_eegnet",
+  "kind": "tuned",
+  "seed": 42,
+  "best_epoch": 231,
+  "epochs_run": 240,
+  "validation_accuracy": 1.0,
+  "validation_loss": 0.5626435279846191
+}

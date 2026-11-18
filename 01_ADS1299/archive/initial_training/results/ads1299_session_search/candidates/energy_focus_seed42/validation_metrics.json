@@ -1,0 +1,10 @@
+{
+  "candidate": "energy_focus_seed42",
+  "architecture": "energy_focus",
+  "family": "energy",
+  "seed": 42,
+  "best_epoch": 288,
+  "epochs_run": 300,
+  "validation_accuracy": 1.0,
+  "validation_loss": 0.04965191334486008
+}

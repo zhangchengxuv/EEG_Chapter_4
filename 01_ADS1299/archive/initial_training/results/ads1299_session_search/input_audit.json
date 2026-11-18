@@ -1,0 +1,50 @@
+{
+  "unique_trial_ids": 544,
+  "unique_signal_content_hashes": 544,
+  "duplicate_signal_contents": 0,
+  "split_class_counts": {
+    "train": {
+      "0": 72,
+      "2": 72,
+      "1": 72,
+      "3": 72
+    },
+    "validation": {
+      "0": 32,
+      "2": 32,
+      "1": 32,
+      "3": 32
+    },
+    "test": {
+      "0": 32,
+      "2": 32,
+      "1": 32,
+      "3": 32
+    }
+  },
+  "quality_flagged_counts": {
+    "train": 28,
+    "validation": 4,
+    "test": 2
+  },
+  "source_unit": "V",
+  "source_sampling_rate_hz": 500,
+  "source_window_seconds": [
+    0.5,
+    3.5
+  ],
+  "trial_count": 544,
+  "sessions": {
+    "train": [
+      "2026-11-16_19-26-41_699598",
+      "2026-11-16_20-02-53_371163"
+    ],
+    "validation": [
+      "2026-11-16_20-41-28_436823"
+    ],
+    "test": [
+      "2026-11-16_21-07-48_189212"
+    ]
+  },
+  "validation": "IDs,metadata mapping,whole session/run isolation,signal finiteness,input unit and NPZ SHA256 verified"
+}

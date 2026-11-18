@@ -1,0 +1,20 @@
+{
+  "state_tensors_exactly_match_previous_selected_model": true,
+  "training_statistics_exactly_match_previous": true,
+  "raw_training_history_records_identical": true,
+  "public_training_history_numeric_values_identical": true,
+  "best_epoch": 293,
+  "seed": 42,
+  "initialization": "从随机初始化完成300轮；与旧模型对比仅发生于本轮训练结束之后",
+  "bn_training_batches_at_best_epoch": 2637,
+  "data_copy_files_verified": 31,
+  "current_code_hashes_verified": true,
+  "new_model_reloaded_without_labels_from_outside_project": true,
+  "validation_correct": 128,
+  "ads_test_prediction_records_verified": 128,
+  "external_g_prediction_records_verified": 339,
+  "external_evaluation_did_not_change_model_file": true,
+  "unit_tests_passed": 5,
+  "chinese_font_warnings": false,
+  "model_sha256": "ebedf81e3c5df1dde661062372fdd790c439b4b3a4cbeebaa72097fe2bcfff40"
+}

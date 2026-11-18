@@ -1,0 +1,12 @@
+﻿candidate,architecture,kind,seed,best_epoch,epochs_run,validation_accuracy,validation_loss
+merged_original_seed42,merged_original,baseline,42,3,63,0.35714285714285715,1.385677695274353
+long_kernel_seed42,long_kernel,tuned,42,217,240,0.9285714285714286,0.24892395734786987
+energy_eegnet_seed42,energy_eegnet,tuned,42,231,240,1.0,0.5626435279846191
+spectrum_fundamental_seed42,spectrum_fundamental,spectral,42,66,126,0.5238095238095238,1.1069351434707642
+spectrum_two_harmonics_seed42,spectrum_two_harmonics,spectral,42,57,117,0.7619047619047619,0.6384331583976746
+spectrum_nonlinear_seed42,spectrum_nonlinear,spectral,42,240,240,0.7857142857142857,0.5972090363502502
+hybrid_smooth_seed42,hybrid_smooth,hybrid,42,30,90,0.7142857142857143,0.8502252697944641
+hybrid_exact_bin_seed42,hybrid_exact_bin,hybrid,42,188,240,0.8809523809523809,0.48694080114364624
+hybrid_regularized_seed42,hybrid_regularized,hybrid,42,65,125,0.7142857142857143,0.8454140424728394
+energy_eegnet_seed43,energy_eegnet,tuned,43,232,240,0.9761904761904762,0.6502722501754761
+energy_eegnet_seed44,energy_eegnet,tuned,44,239,240,0.8095238095238095,0.7556727528572083

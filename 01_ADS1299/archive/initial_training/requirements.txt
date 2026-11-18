@@ -1,0 +1,5 @@
+# GPU 版 PyTorch 可复用 conda pytorch 环境；NumPy 使用独立干净安装。
+numpy==1.26.4
+scipy>=1.10,<1.14
+torch>=2.0,<3.0
+matplotlib>=3.7,<4.0

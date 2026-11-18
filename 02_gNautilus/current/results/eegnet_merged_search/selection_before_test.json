@@ -1,0 +1,10 @@
+{
+  "selected_members": [
+    "energy_eegnet_seed42"
+  ],
+  "best_architecture": "energy_eegnet",
+  "single_validation_accuracy": 1.0,
+  "ensemble_validation_accuracy": 0.9523809523809523,
+  "ensemble_validation_loss": 0.6474862098693848,
+  "selection_scope": "仅验证集；纯频谱消融不参与最终 EEGNet 模型选择"
+}

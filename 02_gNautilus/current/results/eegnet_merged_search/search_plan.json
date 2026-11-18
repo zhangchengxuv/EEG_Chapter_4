@@ -1,0 +1,101 @@
+{
+  "candidates": [
+    {
+      "name": "merged_original",
+      "kind": "baseline",
+      "lr": 0.001,
+      "weight_decay": 0.0
+    },
+    {
+      "name": "long_kernel",
+      "kind": "tuned",
+      "lr": 0.0005,
+      "weight_decay": 0.01
+    },
+    {
+      "name": "energy_eegnet",
+      "kind": "tuned",
+      "energy": true,
+      "lr": 0.001,
+      "weight_decay": 0.01
+    },
+    {
+      "name": "spectrum_fundamental",
+      "kind": "spectral",
+      "harmonics": 1,
+      "lr": 0.01,
+      "weight_decay": 0.01
+    },
+    {
+      "name": "spectrum_two_harmonics",
+      "kind": "spectral",
+      "harmonics": 2,
+      "lr": 0.01,
+      "weight_decay": 0.01
+    },
+    {
+      "name": "spectrum_nonlinear",
+      "kind": "spectral",
+      "harmonics": 2,
+      "hidden": 16,
+      "lr": 0.002,
+      "weight_decay": 0.05
+    },
+    {
+      "name": "hybrid_smooth",
+      "kind": "hybrid",
+      "harmonics": 2,
+      "width": 1,
+      "raw_scale": 0.15,
+      "lr": 0.002,
+      "weight_decay": 0.01
+    },
+    {
+      "name": "hybrid_exact_bin",
+      "kind": "hybrid",
+      "harmonics": 2,
+      "width": 0,
+      "raw_scale": 0.15,
+      "lr": 0.002,
+      "weight_decay": 0.01
+    },
+    {
+      "name": "hybrid_regularized",
+      "kind": "hybrid",
+      "harmonics": 2,
+      "width": 1,
+      "raw_scale": 0.1,
+      "lr": 0.001,
+      "weight_decay": 0.05
+    }
+  ],
+  "epochs": 240,
+  "patience": 60,
+  "batch_size": 32,
+  "search_seed": 42,
+  "ensemble_seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection": "validation accuracy descending, then validation cross-entropy ascending",
+  "splits": {
+    "train": 202,
+    "validation": 42,
+    "test": 95
+  },
+  "device": "cuda",
+  "torch": "2.7.0+cu126",
+  "numpy": "1.26.4",
+  "sha256": {
+    "train_merged_eegnet.py": "d7ee1665055d5fb5e7ff5323be500bbede19bae88d277aaf36196f4c3e107ebe",
+    "train_eegnet.py": "34a2cef0026ebf292b634677fa9acebbd0fcaf5020cf79487e844d21e5840ef2",
+    "ML_DL_Dataset/NumPy/S01_accepted_0to4_uv.npz": "7cc3248136aa2a97241420bfd2d6cf50ef5f0b3f07d1e9a6c720a136347d04b4",
+    "ML_DL_Dataset/Metadata/S01_trials.csv": "0564fc938dee562d6009db75f7fd59877d3bec4273fdb0a3b7658faaee59bd6e",
+    "ML_DL_Dataset/NumPy/S02_accepted_0to4_uv.npz": "4638ec574f41daa6c179bef9a4f74fecbd78f5af5c3ff2bf6b06d81a45bb5472",
+    "ML_DL_Dataset/Metadata/S02_trials.csv": "a4b4c6d2dc456be9feb15722b9116a5894a2c6de7b38adb1a941c73d09f743fb",
+    "ML_DL_Dataset/NumPy/S03_accepted_0to4_uv.npz": "edabc31beb56e6b9dbb650fa26cc77e866ffa4f4a19103d38792c1434f8ef60c",
+    "ML_DL_Dataset/Metadata/S03_trials.csv": "c0a314c36675e3610cedddca9f4623789ca498ba8c79eed735ac8278a8450d81"
+  },
+  "session_interpretation": "同一受试者的三次采集；每次保留原区组划分；不把采集编号当作输入"
+}

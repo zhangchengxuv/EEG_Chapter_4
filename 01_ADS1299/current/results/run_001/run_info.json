@@ -1,0 +1,6 @@
+{
+  "run_name": "run_001",
+  "model": "models/run_001/model.pt",
+  "ads1299_results": "results/run_001/ads1299",
+  "best_epoch": 293
+}

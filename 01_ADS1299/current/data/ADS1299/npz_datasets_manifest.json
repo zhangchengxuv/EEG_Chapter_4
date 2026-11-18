@@ -1,0 +1,873 @@
+{
+  "target_dir": "E:\\ChenXZ\\Desktop\\data\\SSVEP_ML_Dataset",
+  "datasets": [
+    {
+      "file": "ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.npz",
+      "device": "ADS1299",
+      "recording_or_subject": "2026-11-16_19-26-41_699598",
+      "shape": [
+        96,
+        8,
+        1500
+      ],
+      "sfreq": 500.0,
+      "unit": "V",
+      "class_counts": {
+        "A": 24,
+        "B": 24,
+        "C": 24,
+        "D": 24
+      },
+      "channel_names": [
+        "PO7",
+        "PO3",
+        "POz",
+        "PO4",
+        "PO8",
+        "O1",
+        "Oz",
+        "O2"
+      ],
+      "source_npz": "E:\\ChenXZ\\Desktop\\data\\SSVEP\\results\\run_20261116_230837_547616_all\\records\\2026-11-16_19-26-41_699598\\dataset\\dataset.npz",
+      "sha256": "ef65edde043c445a39903a01721386fa64fb0f7b162a364aa0e0aa6752c14c86",
+      "copied_without_data_modification": true,
+      "metadata_file": "npz_metadata\\ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "trials_file": "npz_metadata\\ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "normalization": "none",
+      "label_mapping": {
+        "0": "A",
+        "1": "B",
+        "2": "C",
+        "3": "D"
+      },
+      "original_dataset_metadata": {
+        "shape": [
+          96,
+          8,
+          1500
+        ],
+        "channel_names": [
+          "PO7",
+          "PO3",
+          "POz",
+          "PO4",
+          "PO8",
+          "O1",
+          "Oz",
+          "O2"
+        ],
+        "sfreq": 500.0,
+        "label_mapping": {
+          "0": {
+            "marker_code": 1,
+            "class_name": "A",
+            "frequency_hz": 6.5
+          },
+          "2": {
+            "marker_code": 3,
+            "class_name": "C",
+            "frequency_hz": 11.5
+          },
+          "1": {
+            "marker_code": 2,
+            "class_name": "B",
+            "frequency_hz": 9.0
+          },
+          "3": {
+            "marker_code": 4,
+            "class_name": "D",
+            "frequency_hz": 14.5
+          }
+        },
+        "epoch_requested": {
+          "tmin": 0.0,
+          "tmax": 3.5,
+          "delay": 0.5,
+          "end_exclusive": true,
+          "baseline": null
+        },
+        "epoch_actual_first_last_s": [
+          0.5,
+          3.498
+        ],
+        "n_samples": 1500,
+        "right_open_duration_s": 3.0,
+        "filter_parameters": {
+          "bandpass_taps": 1651,
+          "bandpass_length_s": 3.302,
+          "notch_taps": 3301,
+          "notch_transition_bandwidth_hz": 1.0,
+          "filter": {
+            "highpass_enabled": true,
+            "highpass_hz": 1.0,
+            "lowpass_enabled": true,
+            "lowpass_hz": 80.0,
+            "notch_enabled": true,
+            "notch_freqs": [
+              50.0
+            ],
+            "notch_widths": 1.0,
+            "method": "fir",
+            "phase": "zero"
+          },
+          "reference": {
+            "mode": "original",
+            "channels": []
+          },
+          "bad_channels": [],
+          "steps": [
+            "读取与单位核对",
+            "通道及 Montage 核对",
+            "原始质量检查",
+            "Marker 协议关联与软件定位",
+            "连续滤波 1.0–80.0 Hz",
+            "陷波 50.0 Hz",
+            "异常片段标记（人工审核）"
+          ],
+          "fir_window": "hamming",
+          "fir_design": "firwin",
+          "padding": "reflect_limited",
+          "note": "零相位离线处理，不代表在线因果滤波；REVIEW 注释不自动删除，BAD boundary 用于越界剔除。"
+        },
+        "reference": {
+          "mode": "original",
+          "channels": []
+        },
+        "unit": "V",
+        "mne_unit": "V",
+        "normalization": "none",
+        "normalizer": {},
+        "split_enabled": false,
+        "split_group": "run_id",
+        "synchronization_status": "provisional_software_alignment",
+        "class_counts": {
+          "A": 24,
+          "B": 24,
+          "C": 24,
+          "D": 24
+        },
+        "sources": [
+          "E:\\ChenXZ\\Desktop\\data\\2026-11-16_19-26-41_699598\\eeg_raw.csv"
+        ],
+        "processing_version": "1.0.0",
+        "events_config": {
+          "protocol_root": "E:/ChenXZ/Desktop/OpenBCI/data/subject_001",
+          "alignment": "host_batch_end",
+          "offset_seconds": 0.0,
+          "protocol_match_tolerance_seconds": 2.0,
+          "label_mapping": {
+            "1": "A",
+            "2": "B",
+            "3": "C",
+            "4": "D"
+          },
+          "mapping_source": "E:/ChenXZ/Desktop/OpenBCI/EVENT_CODES.md",
+          "marker_file": "markers.csv",
+          "sample_column": "aligned_sample_index",
+          "code_column": "marker_value",
+          "confirmed_stimulus_start": false,
+          "frequencies": null,
+          "stimulus_duration": null
+        },
+        "event_samples_definition": "event_samples 为各来源记录本地的零基索引；mne_event_samples 为合并 FIF 的虚拟连续索引，须结合 recording_ids。",
+        "quality_flagged_trials": 10,
+        "quality_note": "valid 只表示窗口完整且通过启用的剔除规则，不等于无伪迹。默认不自动剔除。",
+        "synchronization": "软件批次末样本插值估计，未硬件/光学校准。标签表示提示目标。"
+      },
+      "epoch_start_s": 0.5,
+      "epoch_end_exclusive_s": 3.5,
+      "quality_flagged_trials": 10
+    },
+    {
+      "file": "ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.npz",
+      "device": "ADS1299",
+      "recording_or_subject": "2026-11-16_20-02-53_371163",
+      "shape": [
+        192,
+        8,
+        1500
+      ],
+      "sfreq": 500.0,
+      "unit": "V",
+      "class_counts": {
+        "A": 48,
+        "B": 48,
+        "C": 48,
+        "D": 48
+      },
+      "channel_names": [
+        "PO7",
+        "PO3",
+        "POz",
+        "PO4",
+        "PO8",
+        "O1",
+        "Oz",
+        "O2"
+      ],
+      "source_npz": "E:\\ChenXZ\\Desktop\\data\\SSVEP\\results\\run_20261116_230837_547616_all\\records\\2026-11-16_20-02-53_371163\\dataset\\dataset.npz",
+      "sha256": "4790c46e3f894be58ab56fb76437e07d92d436b3582bb7bbb60eb873085e2f77",
+      "copied_without_data_modification": true,
+      "metadata_file": "npz_metadata\\ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "trials_file": "npz_metadata\\ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "normalization": "none",
+      "label_mapping": {
+        "0": "A",
+        "1": "B",
+        "2": "C",
+        "3": "D"
+      },
+      "original_dataset_metadata": {
+        "shape": [
+          192,
+          8,
+          1500
+        ],
+        "channel_names": [
+          "PO7",
+          "PO3",
+          "POz",
+          "PO4",
+          "PO8",
+          "O1",
+          "Oz",
+          "O2"
+        ],
+        "sfreq": 500.0,
+        "label_mapping": {
+          "0": {
+            "marker_code": 1,
+            "class_name": "A",
+            "frequency_hz": 6.5
+          },
+          "2": {
+            "marker_code": 3,
+            "class_name": "C",
+            "frequency_hz": 11.5
+          },
+          "1": {
+            "marker_code": 2,
+            "class_name": "B",
+            "frequency_hz": 9.0
+          },
+          "3": {
+            "marker_code": 4,
+            "class_name": "D",
+            "frequency_hz": 14.5
+          }
+        },
+        "epoch_requested": {
+          "tmin": 0.0,
+          "tmax": 3.5,
+          "delay": 0.5,
+          "end_exclusive": true,
+          "baseline": null
+        },
+        "epoch_actual_first_last_s": [
+          0.5,
+          3.498
+        ],
+        "n_samples": 1500,
+        "right_open_duration_s": 3.0,
+        "filter_parameters": {
+          "bandpass_taps": 1651,
+          "bandpass_length_s": 3.302,
+          "notch_taps": 3301,
+          "notch_transition_bandwidth_hz": 1.0,
+          "filter": {
+            "highpass_enabled": true,
+            "highpass_hz": 1.0,
+            "lowpass_enabled": true,
+            "lowpass_hz": 80.0,
+            "notch_enabled": true,
+            "notch_freqs": [
+              50.0
+            ],
+            "notch_widths": 1.0,
+            "method": "fir",
+            "phase": "zero"
+          },
+          "reference": {
+            "mode": "original",
+            "channels": []
+          },
+          "bad_channels": [],
+          "steps": [
+            "读取与单位核对",
+            "通道及 Montage 核对",
+            "原始质量检查",
+            "Marker 协议关联与软件定位",
+            "连续滤波 1.0–80.0 Hz",
+            "陷波 50.0 Hz",
+            "异常片段标记（人工审核）"
+          ],
+          "fir_window": "hamming",
+          "fir_design": "firwin",
+          "padding": "reflect_limited",
+          "note": "零相位离线处理，不代表在线因果滤波；REVIEW 注释不自动删除，BAD boundary 用于越界剔除。"
+        },
+        "reference": {
+          "mode": "original",
+          "channels": []
+        },
+        "unit": "V",
+        "mne_unit": "V",
+        "normalization": "none",
+        "normalizer": {},
+        "split_enabled": false,
+        "split_group": "run_id",
+        "synchronization_status": "provisional_software_alignment",
+        "class_counts": {
+          "A": 48,
+          "B": 48,
+          "C": 48,
+          "D": 48
+        },
+        "sources": [
+          "E:\\ChenXZ\\Desktop\\data\\2026-11-16_20-02-53_371163\\eeg_raw.csv"
+        ],
+        "processing_version": "1.0.0",
+        "events_config": {
+          "protocol_root": "E:/ChenXZ/Desktop/OpenBCI/data/subject_001",
+          "alignment": "host_batch_end",
+          "offset_seconds": 0.0,
+          "protocol_match_tolerance_seconds": 2.0,
+          "label_mapping": {
+            "1": "A",
+            "2": "B",
+            "3": "C",
+            "4": "D"
+          },
+          "mapping_source": "E:/ChenXZ/Desktop/OpenBCI/EVENT_CODES.md",
+          "marker_file": "markers.csv",
+          "sample_column": "aligned_sample_index",
+          "code_column": "marker_value",
+          "confirmed_stimulus_start": false,
+          "frequencies": null,
+          "stimulus_duration": null
+        },
+        "event_samples_definition": "event_samples 为各来源记录本地的零基索引；mne_event_samples 为合并 FIF 的虚拟连续索引，须结合 recording_ids。",
+        "quality_flagged_trials": 18,
+        "quality_note": "valid 只表示窗口完整且通过启用的剔除规则，不等于无伪迹。默认不自动剔除。",
+        "synchronization": "软件批次末样本插值估计，未硬件/光学校准。标签表示提示目标。"
+      },
+      "epoch_start_s": 0.5,
+      "epoch_end_exclusive_s": 3.5,
+      "quality_flagged_trials": 18
+    },
+    {
+      "file": "ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.npz",
+      "device": "ADS1299",
+      "recording_or_subject": "2026-11-16_20-41-28_436823",
+      "shape": [
+        128,
+        8,
+        1500
+      ],
+      "sfreq": 500.0,
+      "unit": "V",
+      "class_counts": {
+        "A": 32,
+        "B": 32,
+        "C": 32,
+        "D": 32
+      },
+      "channel_names": [
+        "PO7",
+        "PO3",
+        "POz",
+        "PO4",
+        "PO8",
+        "O1",
+        "Oz",
+        "O2"
+      ],
+      "source_npz": "E:\\ChenXZ\\Desktop\\data\\SSVEP\\results\\run_20261116_230837_547616_all\\records\\2026-11-16_20-41-28_436823\\dataset\\dataset.npz",
+      "sha256": "7f30664f25a7096e74e0b039fdc4ea0463d567579828f229284fc77068cc7006",
+      "copied_without_data_modification": true,
+      "metadata_file": "npz_metadata\\ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "trials_file": "npz_metadata\\ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "normalization": "none",
+      "label_mapping": {
+        "0": "A",
+        "1": "B",
+        "2": "C",
+        "3": "D"
+      },
+      "original_dataset_metadata": {
+        "shape": [
+          128,
+          8,
+          1500
+        ],
+        "channel_names": [
+          "PO7",
+          "PO3",
+          "POz",
+          "PO4",
+          "PO8",
+          "O1",
+          "Oz",
+          "O2"
+        ],
+        "sfreq": 500.0,
+        "label_mapping": {
+          "0": {
+            "marker_code": 1,
+            "class_name": "A",
+            "frequency_hz": 6.5
+          },
+          "2": {
+            "marker_code": 3,
+            "class_name": "C",
+            "frequency_hz": 11.5
+          },
+          "1": {
+            "marker_code": 2,
+            "class_name": "B",
+            "frequency_hz": 9.0
+          },
+          "3": {
+            "marker_code": 4,
+            "class_name": "D",
+            "frequency_hz": 14.5
+          }
+        },
+        "epoch_requested": {
+          "tmin": 0.0,
+          "tmax": 3.5,
+          "delay": 0.5,
+          "end_exclusive": true,
+          "baseline": null
+        },
+        "epoch_actual_first_last_s": [
+          0.5,
+          3.498
+        ],
+        "n_samples": 1500,
+        "right_open_duration_s": 3.0,
+        "filter_parameters": {
+          "bandpass_taps": 1651,
+          "bandpass_length_s": 3.302,
+          "notch_taps": 3301,
+          "notch_transition_bandwidth_hz": 1.0,
+          "filter": {
+            "highpass_enabled": true,
+            "highpass_hz": 1.0,
+            "lowpass_enabled": true,
+            "lowpass_hz": 80.0,
+            "notch_enabled": true,
+            "notch_freqs": [
+              50.0
+            ],
+            "notch_widths": 1.0,
+            "method": "fir",
+            "phase": "zero"
+          },
+          "reference": {
+            "mode": "original",
+            "channels": []
+          },
+          "bad_channels": [],
+          "steps": [
+            "读取与单位核对",
+            "通道及 Montage 核对",
+            "原始质量检查",
+            "Marker 协议关联与软件定位",
+            "连续滤波 1.0–80.0 Hz",
+            "陷波 50.0 Hz",
+            "异常片段标记（人工审核）"
+          ],
+          "fir_window": "hamming",
+          "fir_design": "firwin",
+          "padding": "reflect_limited",
+          "note": "零相位离线处理，不代表在线因果滤波；REVIEW 注释不自动删除，BAD boundary 用于越界剔除。"
+        },
+        "reference": {
+          "mode": "original",
+          "channels": []
+        },
+        "unit": "V",
+        "mne_unit": "V",
+        "normalization": "none",
+        "normalizer": {},
+        "split_enabled": false,
+        "split_group": "run_id",
+        "synchronization_status": "provisional_software_alignment",
+        "class_counts": {
+          "A": 32,
+          "B": 32,
+          "C": 32,
+          "D": 32
+        },
+        "sources": [
+          "E:\\ChenXZ\\Desktop\\data\\2026-11-16_20-41-28_436823\\eeg_raw.csv"
+        ],
+        "processing_version": "1.0.0",
+        "events_config": {
+          "protocol_root": "E:/ChenXZ/Desktop/OpenBCI/data/subject_001",
+          "alignment": "host_batch_end",
+          "offset_seconds": 0.0,
+          "protocol_match_tolerance_seconds": 2.0,
+          "label_mapping": {
+            "1": "A",
+            "2": "B",
+            "3": "C",
+            "4": "D"
+          },
+          "mapping_source": "E:/ChenXZ/Desktop/OpenBCI/EVENT_CODES.md",
+          "marker_file": "markers.csv",
+          "sample_column": "aligned_sample_index",
+          "code_column": "marker_value",
+          "confirmed_stimulus_start": false,
+          "frequencies": null,
+          "stimulus_duration": null
+        },
+        "event_samples_definition": "event_samples 为各来源记录本地的零基索引；mne_event_samples 为合并 FIF 的虚拟连续索引，须结合 recording_ids。",
+        "quality_flagged_trials": 4,
+        "quality_note": "valid 只表示窗口完整且通过启用的剔除规则，不等于无伪迹。默认不自动剔除。",
+        "synchronization": "软件批次末样本插值估计，未硬件/光学校准。标签表示提示目标。"
+      },
+      "epoch_start_s": 0.5,
+      "epoch_end_exclusive_s": 3.5,
+      "quality_flagged_trials": 4
+    },
+    {
+      "file": "ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.npz",
+      "device": "ADS1299",
+      "recording_or_subject": "2026-11-16_21-07-48_189212",
+      "shape": [
+        128,
+        8,
+        1500
+      ],
+      "sfreq": 500.0,
+      "unit": "V",
+      "class_counts": {
+        "A": 32,
+        "B": 32,
+        "C": 32,
+        "D": 32
+      },
+      "channel_names": [
+        "PO7",
+        "PO3",
+        "POz",
+        "PO4",
+        "PO8",
+        "O1",
+        "Oz",
+        "O2"
+      ],
+      "source_npz": "E:\\ChenXZ\\Desktop\\data\\SSVEP\\results\\run_20261116_230837_547616_all\\records\\2026-11-16_21-07-48_189212\\dataset\\dataset.npz",
+      "sha256": "3d42873147fdb9a4ee4c5407180fd3e952260bc1e43f682c18660e2968c719b2",
+      "copied_without_data_modification": true,
+      "metadata_file": "npz_metadata\\ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "trials_file": "npz_metadata\\ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "normalization": "none",
+      "label_mapping": {
+        "0": "A",
+        "1": "B",
+        "2": "C",
+        "3": "D"
+      },
+      "original_dataset_metadata": {
+        "shape": [
+          128,
+          8,
+          1500
+        ],
+        "channel_names": [
+          "PO7",
+          "PO3",
+          "POz",
+          "PO4",
+          "PO8",
+          "O1",
+          "Oz",
+          "O2"
+        ],
+        "sfreq": 500.0,
+        "label_mapping": {
+          "0": {
+            "marker_code": 1,
+            "class_name": "A",
+            "frequency_hz": 6.5
+          },
+          "2": {
+            "marker_code": 3,
+            "class_name": "C",
+            "frequency_hz": 11.5
+          },
+          "1": {
+            "marker_code": 2,
+            "class_name": "B",
+            "frequency_hz": 9.0
+          },
+          "3": {
+            "marker_code": 4,
+            "class_name": "D",
+            "frequency_hz": 14.5
+          }
+        },
+        "epoch_requested": {
+          "tmin": 0.0,
+          "tmax": 3.5,
+          "delay": 0.5,
+          "end_exclusive": true,
+          "baseline": null
+        },
+        "epoch_actual_first_last_s": [
+          0.5,
+          3.498
+        ],
+        "n_samples": 1500,
+        "right_open_duration_s": 3.0,
+        "filter_parameters": {
+          "bandpass_taps": 1651,
+          "bandpass_length_s": 3.302,
+          "notch_taps": 3301,
+          "notch_transition_bandwidth_hz": 1.0,
+          "filter": {
+            "highpass_enabled": true,
+            "highpass_hz": 1.0,
+            "lowpass_enabled": true,
+            "lowpass_hz": 80.0,
+            "notch_enabled": true,
+            "notch_freqs": [
+              50.0
+            ],
+            "notch_widths": 1.0,
+            "method": "fir",
+            "phase": "zero"
+          },
+          "reference": {
+            "mode": "original",
+            "channels": []
+          },
+          "bad_channels": [],
+          "steps": [
+            "读取与单位核对",
+            "通道及 Montage 核对",
+            "原始质量检查",
+            "Marker 协议关联与软件定位",
+            "连续滤波 1.0–80.0 Hz",
+            "陷波 50.0 Hz",
+            "异常片段标记（人工审核）"
+          ],
+          "fir_window": "hamming",
+          "fir_design": "firwin",
+          "padding": "reflect_limited",
+          "note": "零相位离线处理，不代表在线因果滤波；REVIEW 注释不自动删除，BAD boundary 用于越界剔除。"
+        },
+        "reference": {
+          "mode": "original",
+          "channels": []
+        },
+        "unit": "V",
+        "mne_unit": "V",
+        "normalization": "none",
+        "normalizer": {},
+        "split_enabled": false,
+        "split_group": "run_id",
+        "synchronization_status": "provisional_software_alignment",
+        "class_counts": {
+          "A": 32,
+          "B": 32,
+          "C": 32,
+          "D": 32
+        },
+        "sources": [
+          "E:\\ChenXZ\\Desktop\\data\\2026-11-16_21-07-48_189212\\eeg_raw.csv"
+        ],
+        "processing_version": "1.0.0",
+        "events_config": {
+          "protocol_root": "E:/ChenXZ/Desktop/OpenBCI/data/subject_001",
+          "alignment": "host_batch_end",
+          "offset_seconds": 0.0,
+          "protocol_match_tolerance_seconds": 2.0,
+          "label_mapping": {
+            "1": "A",
+            "2": "B",
+            "3": "C",
+            "4": "D"
+          },
+          "mapping_source": "E:/ChenXZ/Desktop/OpenBCI/EVENT_CODES.md",
+          "marker_file": "markers.csv",
+          "sample_column": "aligned_sample_index",
+          "code_column": "marker_value",
+          "confirmed_stimulus_start": false,
+          "frequencies": null,
+          "stimulus_duration": null
+        },
+        "event_samples_definition": "event_samples 为各来源记录本地的零基索引；mne_event_samples 为合并 FIF 的虚拟连续索引，须结合 recording_ids。",
+        "quality_flagged_trials": 2,
+        "quality_note": "valid 只表示窗口完整且通过启用的剔除规则，不等于无伪迹。默认不自动剔除。",
+        "synchronization": "软件批次末样本插值估计，未硬件/光学校准。标签表示提示目标。"
+      },
+      "epoch_start_s": 0.5,
+      "epoch_end_exclusive_s": 3.5,
+      "quality_flagged_trials": 2
+    },
+    {
+      "file": "ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.npz",
+      "device": "ADS1299",
+      "recording_or_subject": "combined_four_recordings",
+      "shape": [
+        544,
+        8,
+        1500
+      ],
+      "sfreq": 500.0,
+      "unit": "V",
+      "class_counts": {
+        "A": 136,
+        "B": 136,
+        "C": 136,
+        "D": 136
+      },
+      "channel_names": [
+        "PO7",
+        "PO3",
+        "POz",
+        "PO4",
+        "PO8",
+        "O1",
+        "Oz",
+        "O2"
+      ],
+      "source_npz": "E:\\ChenXZ\\Desktop\\data\\SSVEP\\results\\run_20261116_230837_547616_all\\dataset\\dataset.npz",
+      "sha256": "c9f401a59d3afdf9585ce4e13bcd2660813eb92b929420002a66e57db5ddca47",
+      "copied_without_data_modification": true,
+      "metadata_file": "npz_metadata\\ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "trials_file": "npz_metadata\\ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "normalization": "none",
+      "label_mapping": {
+        "0": "A",
+        "1": "B",
+        "2": "C",
+        "3": "D"
+      },
+      "original_dataset_metadata": {
+        "shape": [
+          544,
+          8,
+          1500
+        ],
+        "channel_names": [
+          "PO7",
+          "PO3",
+          "POz",
+          "PO4",
+          "PO8",
+          "O1",
+          "Oz",
+          "O2"
+        ],
+        "sfreq": 500.0,
+        "label_mapping": {
+          "0": {
+            "marker_code": 1,
+            "class_name": "A",
+            "frequency_hz": 6.5
+          },
+          "2": {
+            "marker_code": 3,
+            "class_name": "C",
+            "frequency_hz": 11.5
+          },
+          "1": {
+            "marker_code": 2,
+            "class_name": "B",
+            "frequency_hz": 9.0
+          },
+          "3": {
+            "marker_code": 4,
+            "class_name": "D",
+            "frequency_hz": 14.5
+          }
+        },
+        "epoch_requested": {
+          "tmin": 0.0,
+          "tmax": 3.5,
+          "delay": 0.5,
+          "end_exclusive": true,
+          "baseline": null
+        },
+        "epoch_actual_first_last_s": [
+          0.5,
+          3.498
+        ],
+        "n_samples": 1500,
+        "right_open_duration_s": 3.0,
+        "filter_parameters": {
+          "per_recording": "records/*/processed/filter_parameters.json",
+          "filter": {
+            "highpass_enabled": true,
+            "highpass_hz": 1.0,
+            "lowpass_enabled": true,
+            "lowpass_hz": 80.0,
+            "notch_enabled": true,
+            "notch_freqs": [
+              50.0
+            ],
+            "notch_widths": 1.0,
+            "method": "fir",
+            "phase": "zero"
+          }
+        },
+        "reference": {
+          "mode": "original",
+          "channels": []
+        },
+        "unit": "V",
+        "mne_unit": "V",
+        "normalization": "none",
+        "normalizer": {},
+        "split_enabled": false,
+        "split_group": "run_id",
+        "synchronization_status": "provisional_software_alignment",
+        "class_counts": {
+          "A": 136,
+          "B": 136,
+          "C": 136,
+          "D": 136
+        },
+        "sources": [
+          "E:\\ChenXZ\\Desktop\\data\\2026-11-16_19-26-41_699598\\eeg_raw.csv",
+          "E:\\ChenXZ\\Desktop\\data\\2026-11-16_20-02-53_371163\\eeg_raw.csv",
+          "E:\\ChenXZ\\Desktop\\data\\2026-11-16_20-41-28_436823\\eeg_raw.csv",
+          "E:\\ChenXZ\\Desktop\\data\\2026-11-16_21-07-48_189212\\eeg_raw.csv"
+        ],
+        "processing_version": "1.0.0",
+        "events_config": {
+          "protocol_root": "E:/ChenXZ/Desktop/OpenBCI/data/subject_001",
+          "alignment": "host_batch_end",
+          "offset_seconds": 0.0,
+          "protocol_match_tolerance_seconds": 2.0,
+          "label_mapping": {
+            "1": "A",
+            "2": "B",
+            "3": "C",
+            "4": "D"
+          },
+          "mapping_source": "E:/ChenXZ/Desktop/OpenBCI/EVENT_CODES.md",
+          "marker_file": "markers.csv",
+          "sample_column": "aligned_sample_index",
+          "code_column": "marker_value",
+          "confirmed_stimulus_start": false,
+          "frequencies": null,
+          "stimulus_duration": null
+        },
+        "event_samples_definition": "event_samples 为各来源记录本地的零基索引；mne_event_samples 为合并 FIF 的虚拟连续索引，须结合 recording_ids。",
+        "quality_flagged_trials": 34,
+        "quality_note": "valid 只表示窗口完整且通过启用的剔除规则，不等于无伪迹。默认不自动剔除。",
+        "synchronization": "软件批次末样本插值估计，未硬件/光学校准。标签表示提示目标。"
+      },
+      "epoch_start_s": 0.5,
+      "epoch_end_exclusive_s": 3.5,
+      "quality_flagged_trials": 34
+    }
+  ],
+  "note": "ADS1299 only; combined contains the same trials as the four individual files; never concatenate these versions as independent trials"
+}

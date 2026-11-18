@@ -1,0 +1,51 @@
+{
+  "identifier_overlaps_with_old_544": {
+    "trial_ids": [],
+    "run_ids": [],
+    "session_ids": [],
+    "recording_ids": []
+  },
+  "exact_signal_duplicates_with_old_544": 0,
+  "new_unique_signal_contents": 128,
+  "label_order_comparisons": [
+    {
+      "old_run": "session_001_20261116_201544_01",
+      "same_label_order": true,
+      "matching_positions": 128,
+      "count": 128
+    },
+    {
+      "old_run": "session_001_20261116_204150_01",
+      "same_label_order": true,
+      "matching_positions": 128,
+      "count": 128
+    },
+    {
+      "old_run": "session_001_20261116_210810_01",
+      "same_label_order": true,
+      "matching_positions": 128,
+      "count": 128
+    }
+  ],
+  "sequence_confound_still_present": true,
+  "quality_flags": {
+    "": 99,
+    "stimulus_timing_unverified_or_invalid;": 26,
+    "signal_review_segment;": 3
+  },
+  "class_counts": [
+    32,
+    32,
+    32,
+    32
+  ],
+  "sampling_rate_hz": 500,
+  "unit": "V",
+  "shape": [
+    128,
+    8,
+    1500
+  ],
+  "upstream_filter_parameters_independently_verified": false,
+  "window_definition_source": "文件名0p5to3p5s及用户说明；新文件没有配套窗口/滤波metadata.json"
+}

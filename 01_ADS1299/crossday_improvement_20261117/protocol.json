@@ -1,0 +1,79 @@
+{
+  "configs": [
+    {
+      "name": "energy8",
+      "family": "energy",
+      "filters": 8,
+      "kernel": 251,
+      "lr": 0.0005,
+      "weight_decay": 0.01
+    },
+    {
+      "name": "energy16",
+      "family": "energy",
+      "filters": 16,
+      "kernel": 251,
+      "lr": 0.0005,
+      "weight_decay": 0.01
+    },
+    {
+      "name": "hybrid8",
+      "family": "hybrid",
+      "filters": 8,
+      "raw_scale": 0.5,
+      "kernel": 251,
+      "lr": 0.0005,
+      "weight_decay": 0.01
+    },
+    {
+      "name": "standard8_aug",
+      "family": "standard",
+      "filters": 8,
+      "augment": true,
+      "kernel": 251,
+      "lr": 0.0005,
+      "weight_decay": 0.01
+    },
+    {
+      "name": "hybrid8_spectral",
+      "family": "hybrid",
+      "filters": 8,
+      "raw_scale": 0.1,
+      "kernel": 251,
+      "lr": 0.0005,
+      "weight_decay": 0.01
+    },
+    {
+      "name": "hybrid16_spectral",
+      "family": "hybrid",
+      "filters": 16,
+      "raw_scale": 0.1,
+      "kernel": 251,
+      "lr": 0.0005,
+      "weight_decay": 0.01
+    }
+  ],
+  "seed": 42,
+  "epochs": 110,
+  "patience": 60,
+  "assignments": {
+    "train": [
+      "2026-11-16_19-26-41_699598",
+      "2026-11-16_20-02-53_371163"
+    ],
+    "validation": [
+      "2026-11-16_20-41-28_436823"
+    ],
+    "test": [
+      "2026-11-16_21-07-48_189212"
+    ]
+  },
+  "source_sha256": "c9f401a59d3afdf9585ce4e13bcd2660813eb92b929420002a66e57db5ddca47",
+  "target_sha256": "f286722ce1b765b2da5c66d35fdff32b4491e18840cf6bbcbcbe2c3ae6819297",
+  "baseline_sha256": "b3779507dc9b9a848d75d4959b2a54c92d6bbc704f8326eeb7ffb35622052c54",
+  "epoch_selection": "仅11月16日验证准确率优先、交叉熵次优",
+  "candidate_selection": "11月17日准确率优先、宏F1次优；目标日属于开发评估",
+  "target_usage": "不参与训练、标准化或早停；所有128试次保留",
+  "adaptive_extension": "第一轮目标日hybrid8较好，因此追加两个raw_scale=0.1的融合候选；目标日已参与开发",
+  "device": "cuda"
+}

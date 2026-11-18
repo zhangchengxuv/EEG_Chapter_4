@@ -1,0 +1,343 @@
+{
+  "evaluation_type": "跨设备外部历史数据复测",
+  "trained_device": "ADS1299",
+  "evaluated_device": "g.Nautilus",
+  "all_accepted_339": {
+    "accuracy": 0.336283185840708,
+    "correct": 114,
+    "count": 339,
+    "balanced_accuracy": 0.33676470588235297,
+    "macro_f1": 0.2281081081081081,
+    "confusion_matrix_true_rows": [
+      [
+        72,
+        13,
+        0,
+        0
+      ],
+      [
+        42,
+        42,
+        0,
+        0
+      ],
+      [
+        68,
+        20,
+        0,
+        0
+      ],
+      [
+        66,
+        16,
+        0,
+        0
+      ]
+    ],
+    "per_class": [
+      {
+        "label": 0,
+        "target": "A",
+        "precision": 0.2903225806451613,
+        "recall": 0.8470588235294118,
+        "f1": 0.43243243243243246,
+        "support": 85
+      },
+      {
+        "label": 1,
+        "target": "B",
+        "precision": 0.46153846153846156,
+        "recall": 0.5,
+        "f1": 0.48000000000000004,
+        "support": 84
+      },
+      {
+        "label": 2,
+        "target": "C",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 88
+      },
+      {
+        "label": 3,
+        "target": "D",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 82
+      }
+    ]
+  },
+  "historical_test_95": {
+    "accuracy": 0.35789473684210527,
+    "correct": 34,
+    "count": 95,
+    "balanced_accuracy": 0.3627717391304348,
+    "macro_f1": 0.2443936877076412,
+    "confusion_matrix_true_rows": [
+      [
+        19,
+        4,
+        0,
+        0
+      ],
+      [
+        9,
+        15,
+        0,
+        0
+      ],
+      [
+        16,
+        8,
+        0,
+        0
+      ],
+      [
+        19,
+        5,
+        0,
+        0
+      ]
+    ],
+    "per_class": [
+      {
+        "label": 0,
+        "target": "A",
+        "precision": 0.30158730158730157,
+        "recall": 0.8260869565217391,
+        "f1": 0.4418604651162791,
+        "support": 23
+      },
+      {
+        "label": 1,
+        "target": "B",
+        "precision": 0.46875,
+        "recall": 0.625,
+        "f1": 0.5357142857142857,
+        "support": 24
+      },
+      {
+        "label": 2,
+        "target": "C",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 24
+      },
+      {
+        "label": 3,
+        "target": "D",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 24
+      }
+    ]
+  },
+  "by_recording": {
+    "S01": {
+      "accuracy": 0.29411764705882354,
+      "correct": 35,
+      "count": 119,
+      "balanced_accuracy": 0.2997126436781609,
+      "macro_f1": 0.18402306648575306,
+      "confusion_matrix_true_rows": [
+        [
+          28,
+          1,
+          0,
+          0
+        ],
+        [
+          23,
+          7,
+          0,
+          0
+        ],
+        [
+          27,
+          4,
+          0,
+          0
+        ],
+        [
+          27,
+          2,
+          0,
+          0
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "target": "A",
+          "precision": 0.26666666666666666,
+          "recall": 0.9655172413793104,
+          "f1": 0.417910447761194,
+          "support": 29
+        },
+        {
+          "label": 1,
+          "target": "B",
+          "precision": 0.5,
+          "recall": 0.23333333333333334,
+          "f1": 0.3181818181818182,
+          "support": 30
+        },
+        {
+          "label": 2,
+          "target": "C",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 31
+        },
+        {
+          "label": 3,
+          "target": "D",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 29
+        }
+      ]
+    },
+    "S02": {
+      "accuracy": 0.376,
+      "correct": 47,
+      "count": 125,
+      "balanced_accuracy": 0.3796875,
+      "macro_f1": 0.2575276405551635,
+      "confusion_matrix_true_rows": [
+        [
+          24,
+          6,
+          0,
+          0
+        ],
+        [
+          9,
+          23,
+          0,
+          0
+        ],
+        [
+          24,
+          8,
+          0,
+          0
+        ],
+        [
+          22,
+          9,
+          0,
+          0
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "target": "A",
+          "precision": 0.3037974683544304,
+          "recall": 0.8,
+          "f1": 0.4403669724770642,
+          "support": 30
+        },
+        {
+          "label": 1,
+          "target": "B",
+          "precision": 0.5,
+          "recall": 0.71875,
+          "f1": 0.5897435897435898,
+          "support": 32
+        },
+        {
+          "label": 2,
+          "target": "C",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 32
+        },
+        {
+          "label": 3,
+          "target": "D",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 31
+        }
+      ]
+    },
+    "S03": {
+      "accuracy": 0.3368421052631579,
+      "correct": 32,
+      "count": 95,
+      "balanced_accuracy": 0.32867132867132864,
+      "macro_f1": 0.22431865828092243,
+      "confusion_matrix_true_rows": [
+        [
+          20,
+          6,
+          0,
+          0
+        ],
+        [
+          10,
+          12,
+          0,
+          0
+        ],
+        [
+          17,
+          8,
+          0,
+          0
+        ],
+        [
+          17,
+          5,
+          0,
+          0
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "target": "A",
+          "precision": 0.3125,
+          "recall": 0.7692307692307693,
+          "f1": 0.4444444444444445,
+          "support": 26
+        },
+        {
+          "label": 1,
+          "target": "B",
+          "precision": 0.3870967741935484,
+          "recall": 0.5454545454545454,
+          "f1": 0.45283018867924524,
+          "support": 22
+        },
+        {
+          "label": 2,
+          "target": "C",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 25
+        },
+        {
+          "label": 3,
+          "target": "D",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 22
+        }
+      ]
+    }
+  },
+  "note": "这批数据曾用于以前的g.Nautilus研究；不是新采集盲测，未用于本轮ADS1299训练或选轮次。"
+}

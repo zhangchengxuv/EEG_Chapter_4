@@ -1,0 +1,10 @@
+{
+  "protected_files_unchanged": true,
+  "protected_sha256": {
+    "/home/zhangchenxu/Documents/00_Project/SSVEP/01_ADS1299/current/data/ADS1299/ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.npz": "c9f401a59d3afdf9585ce4e13bcd2660813eb92b929420002a66e57db5ddca47",
+    "/home/zhangchenxu/Documents/00_Project/SSVEP/01_ADS1299/current/data/independent_tests/20261117_160423/ADS1299_20261117_160423_allTrials_500Hz_0p5to3p5s_V.npz": "f286722ce1b765b2da5c66d35fdff32b4491e18840cf6bbcbcbe2c3ae6819297",
+    "/home/zhangchenxu/Documents/00_Project/SSVEP/01_ADS1299/current/models/run_110epochs/model.pt": "b3779507dc9b9a848d75d4959b2a54c92d6bbc704f8326eeb7ffb35622052c54"
+  },
+  "target_trials": 128,
+  "exact_source_duplicates": 0
+}

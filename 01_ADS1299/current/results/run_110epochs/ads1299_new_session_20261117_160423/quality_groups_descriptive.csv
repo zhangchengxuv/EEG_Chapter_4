@@ -1,0 +1,4 @@
+﻿质量标记,正确试次,总试次,准确率
+无质量标记,70,99,0.7070707070707071
+signal_review_segment;,1,3,0.3333333333333333
+stimulus_timing_unverified_or_invalid;,17,26,0.6538461538461539

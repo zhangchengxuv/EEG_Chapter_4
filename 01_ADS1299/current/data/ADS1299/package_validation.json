@@ -1,0 +1,54 @@
+{
+  "all_passed": true,
+  "device": "ADS1299",
+  "npz_count": 5,
+  "unique_trials": 544,
+  "files": [
+    {
+      "file": "ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.npz",
+      "shape": [
+        96,
+        8,
+        1500
+      ],
+      "sha256_verified": true
+    },
+    {
+      "file": "ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.npz",
+      "shape": [
+        192,
+        8,
+        1500
+      ],
+      "sha256_verified": true
+    },
+    {
+      "file": "ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.npz",
+      "shape": [
+        128,
+        8,
+        1500
+      ],
+      "sha256_verified": true
+    },
+    {
+      "file": "ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.npz",
+      "shape": [
+        128,
+        8,
+        1500
+      ],
+      "sha256_verified": true
+    },
+    {
+      "file": "ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.npz",
+      "shape": [
+        544,
+        8,
+        1500
+      ],
+      "sha256_verified": true
+    }
+  ],
+  "original_result_files_unchanged": true
+}

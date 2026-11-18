@@ -1,0 +1,10 @@
+{
+  "candidate": "hybrid_energy_seed42",
+  "architecture": "hybrid_energy",
+  "family": "hybrid",
+  "seed": 42,
+  "best_epoch": 136,
+  "epochs_run": 196,
+  "validation_accuracy": 0.984375,
+  "validation_loss": 0.14986789226531982
+}

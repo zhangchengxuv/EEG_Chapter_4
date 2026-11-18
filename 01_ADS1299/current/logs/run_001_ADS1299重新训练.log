@@ -1,0 +1,13 @@
+ADS1299 从头训练；训练/验证/测试=288/128/128；设备=cuda
+
+候选 eegnet_long_seed42
+  epoch=1, val_acc=25.78%, val_loss=1.3885
+  epoch=50, val_acc=64.06%, val_loss=0.8873
+  epoch=100, val_acc=100.00%, val_loss=0.0227
+  epoch=150, val_acc=100.00%, val_loss=0.0066
+  epoch=200, val_acc=100.00%, val_loss=0.0052
+  epoch=250, val_acc=100.00%, val_loss=0.0050
+  epoch=300, val_acc=100.00%, val_loss=0.0036
+  最佳轮次=293, 验证准确率=100.00%
+ADS1299 内部测试：128/128，准确率=100.00%
+本轮模型：/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/EEGNet_Selected_20261117/models/run_001/model.pt

@@ -1,0 +1,6 @@
+{
+  "run_name": "run_110epochs",
+  "model": "models/run_110epochs/model.pt",
+  "ads1299_results": "results/run_110epochs/ads1299",
+  "best_epoch": 109
+}

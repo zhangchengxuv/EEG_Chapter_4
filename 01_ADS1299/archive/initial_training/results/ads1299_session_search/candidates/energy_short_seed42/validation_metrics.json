@@ -1,0 +1,10 @@
+{
+  "candidate": "energy_short_seed42",
+  "architecture": "energy_short",
+  "family": "energy",
+  "seed": 42,
+  "best_epoch": 298,
+  "epochs_run": 300,
+  "validation_accuracy": 1.0,
+  "validation_loss": 0.12246878445148468
+}

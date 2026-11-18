@@ -1,0 +1,212 @@
+{
+  "train": {
+    "accuracy": 1.0,
+    "correct": 288,
+    "count": 288,
+    "balanced_accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix_true_rows": [
+      [
+        72,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        72,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        72,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        72
+      ]
+    ],
+    "per_class": [
+      {
+        "label": 0,
+        "target": "A",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 72
+      },
+      {
+        "label": 1,
+        "target": "B",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 72
+      },
+      {
+        "label": 2,
+        "target": "C",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 72
+      },
+      {
+        "label": 3,
+        "target": "D",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 72
+      }
+    ],
+    "device": "ADS1299",
+    "split": "train",
+    "quality_flagged_trials_retained": 28
+  },
+  "validation": {
+    "accuracy": 1.0,
+    "correct": 128,
+    "count": 128,
+    "balanced_accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix_true_rows": [
+      [
+        32,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        32,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        32,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        32
+      ]
+    ],
+    "per_class": [
+      {
+        "label": 0,
+        "target": "A",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 32
+      },
+      {
+        "label": 1,
+        "target": "B",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 32
+      },
+      {
+        "label": 2,
+        "target": "C",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 32
+      },
+      {
+        "label": 3,
+        "target": "D",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 32
+      }
+    ],
+    "device": "ADS1299",
+    "split": "validation",
+    "quality_flagged_trials_retained": 4
+  },
+  "test": {
+    "accuracy": 1.0,
+    "correct": 128,
+    "count": 128,
+    "balanced_accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix_true_rows": [
+      [
+        32,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        32,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        32,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        32
+      ]
+    ],
+    "per_class": [
+      {
+        "label": 0,
+        "target": "A",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 32
+      },
+      {
+        "label": 1,
+        "target": "B",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 32
+      },
+      {
+        "label": 2,
+        "target": "C",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 32
+      },
+      {
+        "label": 3,
+        "target": "D",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 32
+      }
+    ],
+    "device": "ADS1299",
+    "split": "test",
+    "quality_flagged_trials_retained": 2
+  }
+}

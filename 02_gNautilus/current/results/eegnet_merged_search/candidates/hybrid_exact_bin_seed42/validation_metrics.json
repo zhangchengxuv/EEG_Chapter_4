@@ -1,0 +1,10 @@
+{
+  "candidate": "hybrid_exact_bin_seed42",
+  "architecture": "hybrid_exact_bin",
+  "kind": "hybrid",
+  "seed": 42,
+  "best_epoch": 188,
+  "epochs_run": 240,
+  "validation_accuracy": 0.8809523809523809,
+  "validation_loss": 0.48694080114364624
+}

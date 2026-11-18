@@ -1,0 +1,47 @@
+{
+  "selected": {
+    "name": "hybrid8",
+    "target_accuracy": 0.7265625,
+    "target_macro_f1": 0.7297944314337756,
+    "source_validation_accuracy": 0.9609375,
+    "source_test_accuracy": 0.8984375
+  },
+  "criterion": "目标日开发准确率优先、宏F1次优",
+  "all_results": [
+    {
+      "name": "baseline",
+      "target_accuracy": 0.6875,
+      "target_macro_f1": 0.672329895346677,
+      "source_validation_accuracy": 1.0,
+      "source_test_accuracy": 1.0
+    },
+    {
+      "name": "energy8",
+      "target_accuracy": 0.609375,
+      "target_macro_f1": 0.6145398787116756,
+      "source_validation_accuracy": 1.0,
+      "source_test_accuracy": 1.0
+    },
+    {
+      "name": "energy16",
+      "target_accuracy": 0.5625,
+      "target_macro_f1": 0.5565667641325536,
+      "source_validation_accuracy": 1.0,
+      "source_test_accuracy": 1.0
+    },
+    {
+      "name": "hybrid8",
+      "target_accuracy": 0.7265625,
+      "target_macro_f1": 0.7297944314337756,
+      "source_validation_accuracy": 0.9609375,
+      "source_test_accuracy": 0.8984375
+    },
+    {
+      "name": "standard8_aug",
+      "target_accuracy": 0.3203125,
+      "target_macro_f1": 0.2706270627062707,
+      "source_validation_accuracy": 0.9765625,
+      "source_test_accuracy": 0.921875
+    }
+  ]
+}

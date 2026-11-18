@@ -1,0 +1,11 @@
+{
+  "model_sha256_unchanged": true,
+  "input_sha256_unchanged": true,
+  "stored_copy_matches_source": true,
+  "all_trials_retained": true,
+  "old_and_new_trial_ids_disjoint": true,
+  "old_and_new_signal_contents_disjoint": true,
+  "prediction_received_labels": false,
+  "normalizer_refitted": false,
+  "model_retrained": false
+}

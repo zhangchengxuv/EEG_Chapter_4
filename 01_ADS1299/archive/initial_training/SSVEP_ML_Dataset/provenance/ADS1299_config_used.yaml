@@ -1,0 +1,107 @@
+data:
+  input_dir: E:/ChenXZ/Desktop/data
+  output_dir: E:/ChenXZ/Desktop/data/SSVEP/results
+  files: []
+  sampling_rate: null
+  unit: auto
+  montage: standard_1020
+  preferred_format: csv
+  processed_dir: null
+  csv_columns: null
+  csv_separator: ','
+channels:
+  names:
+  - PO7
+  - PO3
+  - POz
+  - PO4
+  - PO8
+  - O1
+  - Oz
+  - O2
+  bad_channels: []
+filter:
+  highpass_enabled: true
+  highpass_hz: 1.0
+  lowpass_enabled: true
+  lowpass_hz: 80.0
+  notch_enabled: true
+  notch_freqs:
+  - 50.0
+  notch_widths: 1.0
+  method: fir
+  phase: zero
+reference:
+  mode: original
+  channels: []
+resample:
+  sfreq: null
+events:
+  protocol_root: E:/ChenXZ/Desktop/OpenBCI/data/subject_001
+  alignment: host_batch_end
+  offset_seconds: 0.0
+  protocol_match_tolerance_seconds: 2.0
+  label_mapping:
+    1: A
+    2: B
+    3: C
+    4: D
+  mapping_source: E:/ChenXZ/Desktop/OpenBCI/EVENT_CODES.md
+  marker_file: markers.csv
+  sample_column: aligned_sample_index
+  code_column: marker_value
+  confirmed_stimulus_start: false
+  frequencies: null
+  stimulus_duration: null
+epoch:
+  tmin: 0.0
+  tmax: 3.5
+  delay: 0.5
+  end_exclusive: true
+  baseline: null
+artifact:
+  enabled: true
+  auto_reject: false
+  peak_to_peak_uv: null
+  variance_ratio: 10.0
+  flat_uv: 0.01
+  window_seconds: 1.0
+  manual_review_csv: null
+dataset:
+  output_format:
+  - npz
+  - fif
+  cnn_axis: false
+  normalize: none
+  split_enabled: false
+  split_group: run_id
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+  random_seed: 42
+features:
+  harmonics: 3
+  snr_neighbor_hz: 2.0
+  snr_guard_hz: 0.5
+  snr_exclude_hz: 0.5
+  time_frequency: true
+  topomap: true
+visualization:
+  dpi: 300
+  save_png: true
+  save_svg: true
+  show_plots: false
+  language: zh
+  fft_scale: both
+  frequency_range:
+  - 0
+  - 100
+  focus_range:
+  - 4
+  - 48
+  window_seconds:
+  - 30
+  - 40
+  welch_seconds: 8.0
+  fft_seconds: 8.0
+  overview_bins: 2400

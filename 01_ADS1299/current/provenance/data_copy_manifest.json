@@ -1,0 +1,191 @@
+{
+  "created_at_shanghai": "2026-11-17T00:42:38.741871+08:00",
+  "files": [
+    {
+      "copy": "data/ADS1299/ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.npz",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.npz",
+      "sha256": "ef65edde043c445a39903a01721386fa64fb0f7b162a364aa0e0aa6752c14c86",
+      "bytes": 4279367
+    },
+    {
+      "copy": "data/ADS1299/ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.npz",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.npz",
+      "sha256": "4790c46e3f894be58ab56fb76437e07d92d436b3582bb7bbb60eb873085e2f77",
+      "bytes": 8553678
+    },
+    {
+      "copy": "data/ADS1299/ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.npz",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.npz",
+      "sha256": "7f30664f25a7096e74e0b039fdc4ea0463d567579828f229284fc77068cc7006",
+      "bytes": 5703392
+    },
+    {
+      "copy": "data/ADS1299/ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.npz",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.npz",
+      "sha256": "3d42873147fdb9a4ee4c5407180fd3e952260bc1e43f682c18660e2968c719b2",
+      "bytes": 5704367
+    },
+    {
+      "copy": "data/ADS1299/ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.npz",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.npz",
+      "sha256": "c9f401a59d3afdf9585ce4e13bcd2660813eb92b929420002a66e57db5ddca47",
+      "bytes": 24228392
+    },
+    {
+      "copy": "data/ADS1299/ML_USAGE.md",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/ML_USAGE.md",
+      "sha256": "7846d1fc464bfd5aa021798405d96bce712bbe048cef747df5f2bc4488f34582",
+      "bytes": 4215
+    },
+    {
+      "copy": "data/ADS1299/NPZ_DATASETS_README.md",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/NPZ_DATASETS_README.md",
+      "sha256": "9d2aa0db787aaed44c818073a9b3a69bcfd2e5e7f23d8b1293c095a25cb21e50",
+      "bytes": 2272
+    },
+    {
+      "copy": "data/ADS1299/README.md",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/README.md",
+      "sha256": "d2c85eb5fc02347712dfcdc8c8acc38234f644724ea1c95fb2fcf3b7bcd8cfd4",
+      "bytes": 1800
+    },
+    {
+      "copy": "data/ADS1299/load_dataset.py",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/load_dataset.py",
+      "sha256": "e385bd53b6547f393ecaa06255c1343a762823d77646697e4bd22ee3c1e93c98",
+      "bytes": 2354
+    },
+    {
+      "copy": "data/ADS1299/npz_datasets_manifest.json",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/npz_datasets_manifest.json",
+      "sha256": "637685c0180326ff57cf0a1cecee08ab52bc8e868753ae468a69f9437ceb6a79",
+      "bytes": 27579
+    },
+    {
+      "copy": "data/ADS1299/npz_metadata/ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/npz_metadata/ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "sha256": "c46479dc777bcaebb8dfc1a302f2ad91e37c163cfed7d38546030d064e8745d3",
+      "bytes": 4865
+    },
+    {
+      "copy": "data/ADS1299/npz_metadata/ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/npz_metadata/ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "sha256": "6a4a3c4ec4376862eab62f72e30b8d2a8b4a672bb98c52c05ce3411fd0db70aa",
+      "bytes": 63084
+    },
+    {
+      "copy": "data/ADS1299/npz_metadata/ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/npz_metadata/ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "sha256": "6bfe20e5c08efa09447cc50bd082119c51c0d576fc24b39008f8bef49e5d6cf6",
+      "bytes": 4867
+    },
+    {
+      "copy": "data/ADS1299/npz_metadata/ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/npz_metadata/ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "sha256": "11b7f9cf25dba5d4d81b47587c78c7d1d2a618ca07af165117d7336f2ac0d35a",
+      "bytes": 126081
+    },
+    {
+      "copy": "data/ADS1299/npz_metadata/ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/npz_metadata/ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "sha256": "28dc05c76ee788821395a4de42c9cd35000ca28c36d5f01f624a26b07fc9a6fb",
+      "bytes": 4865
+    },
+    {
+      "copy": "data/ADS1299/npz_metadata/ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/npz_metadata/ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "sha256": "76052dbef94da52ddea84fefd1f83539a65aedd06a81de8702d8ec3c5f2e4384",
+      "bytes": 84130
+    },
+    {
+      "copy": "data/ADS1299/npz_metadata/ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/npz_metadata/ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "sha256": "fb25b75823342eab3336c5b00840817c613b74ca96d89b8263e28f91dd19315d",
+      "bytes": 4865
+    },
+    {
+      "copy": "data/ADS1299/npz_metadata/ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/npz_metadata/ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "sha256": "09b5d63d18203db77ed563a6a1b4848d0effcf7a3c65b616660aa21659b4e3e1",
+      "bytes": 83755
+    },
+    {
+      "copy": "data/ADS1299/npz_metadata/ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/npz_metadata/ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.metadata.json",
+      "sha256": "1d072a6a0992b0f78ea88d2d37deafd06653b6dbbd9ab57cbf2000dd3bebdb9f",
+      "bytes": 4398
+    },
+    {
+      "copy": "data/ADS1299/npz_metadata/ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/npz_metadata/ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.trials.csv",
+      "sha256": "bcbb521599fdb52bfd1b789b83e47c54640de32a88f881a7129113f523e8ee98",
+      "bytes": 354806
+    },
+    {
+      "copy": "data/ADS1299/package_validation.json",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/package_validation.json",
+      "sha256": "26e5ee6cf28f01cf8919964df6cc461188ee207bec9fe7e9c1abc56f285327cd",
+      "bytes": 1109
+    },
+    {
+      "copy": "data/ADS1299/provenance/ADS1299_config_used.yaml",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/provenance/ADS1299_config_used.yaml",
+      "sha256": "0a0f0b4d0eb5cbac901e533376a4f1891714bfa397dc5754c79cb6d824e731a7",
+      "bytes": 1992
+    },
+    {
+      "copy": "data/ADS1299/provenance/ADS1299_environment.json",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/provenance/ADS1299_environment.json",
+      "sha256": "67795a1ae613fd903db3f89843fd51b21fca1c8eccf63c4acf93e1dbeaa54b22",
+      "bytes": 401
+    },
+    {
+      "copy": "data/ADS1299/provenance/ADS1299_final_validation.json",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/provenance/ADS1299_final_validation.json",
+      "sha256": "f7b3e56d9084e7b351c21b05110fdc99c65c3c59c58cb97d9b93769c555fdbfd",
+      "bytes": 2923
+    },
+    {
+      "copy": "data/ADS1299/provenance/source_manifest.json",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/ADS1299/SSVEP_ML_Dataset/provenance/source_manifest.json",
+      "sha256": "31f895b6d1c75d4caae9f1646edbe49e83e6dec9cd6922e5683fc03ce5d8c186",
+      "bytes": 799
+    },
+    {
+      "copy": "data/gNautilus/Metadata/S01_trials.csv",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/g.Nautilus/ML_DL_Dataset/Metadata/S01_trials.csv",
+      "sha256": "0564fc938dee562d6009db75f7fd59877d3bec4273fdb0a3b7658faaee59bd6e",
+      "bytes": 26395
+    },
+    {
+      "copy": "data/gNautilus/Metadata/S02_trials.csv",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/g.Nautilus/ML_DL_Dataset/Metadata/S02_trials.csv",
+      "sha256": "a4b4c6d2dc456be9feb15722b9116a5894a2c6de7b38adb1a941c73d09f743fb",
+      "bytes": 26100
+    },
+    {
+      "copy": "data/gNautilus/Metadata/S03_trials.csv",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/g.Nautilus/ML_DL_Dataset/Metadata/S03_trials.csv",
+      "sha256": "c0a314c36675e3610cedddca9f4623789ca498ba8c79eed735ac8278a8450d81",
+      "bytes": 27620
+    },
+    {
+      "copy": "data/gNautilus/NumPy/S01_accepted_0to4_uv.npz",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/g.Nautilus/ML_DL_Dataset/NumPy/S01_accepted_0to4_uv.npz",
+      "sha256": "7cc3248136aa2a97241420bfd2d6cf50ef5f0b3f07d1e9a6c720a136347d04b4",
+      "bytes": 3545809
+    },
+    {
+      "copy": "data/gNautilus/NumPy/S02_accepted_0to4_uv.npz",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/g.Nautilus/ML_DL_Dataset/NumPy/S02_accepted_0to4_uv.npz",
+      "sha256": "4638ec574f41daa6c179bef9a4f74fecbd78f5af5c3ff2bf6b06d81a45bb5472",
+      "bytes": 3725599
+    },
+    {
+      "copy": "data/gNautilus/NumPy/S03_accepted_0to4_uv.npz",
+      "source": "/home/zhangchenxu/Documents/00_Project/SSVEP/g.Nautilus/ML_DL_Dataset/NumPy/S03_accepted_0to4_uv.npz",
+      "sha256": "edabc31beb56e6b9dbb650fa26cc77e866ffa4f4a19103d38792c1434f8ef60c",
+      "bytes": 2829380
+    }
+  ]
+}

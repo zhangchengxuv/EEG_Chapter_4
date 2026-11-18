@@ -1,0 +1,4 @@
+# Python 3.9 或更高版本；GPU 版 PyTorch 可复用 conda pytorch 环境中的安装。
+numpy==1.26.4
+torch>=2.0,<3.0
+matplotlib>=3.7,<4.0

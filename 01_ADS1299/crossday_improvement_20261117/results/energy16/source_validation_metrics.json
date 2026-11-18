@@ -1,0 +1,67 @@
+{
+  "accuracy": 1.0,
+  "correct": 128,
+  "count": 128,
+  "balanced_accuracy": 1.0,
+  "macro_f1": 1.0,
+  "confusion_matrix_true_rows": [
+    [
+      32,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      32,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      32,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      32
+    ]
+  ],
+  "per_class": [
+    {
+      "label": 0,
+      "target": "A",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 32
+    },
+    {
+      "label": 1,
+      "target": "B",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 32
+    },
+    {
+      "label": 2,
+      "target": "C",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 32
+    },
+    {
+      "label": 3,
+      "target": "D",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 32
+    }
+  ]
+}

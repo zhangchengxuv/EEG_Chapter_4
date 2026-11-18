@@ -1,0 +1,17 @@
+[
+  {
+    "source": "E:\\ChenXZ\\Desktop\\data\\SSVEP\\results\\run_20261116_230837_547616_all\\config_used.yaml",
+    "copy": "provenance\\ADS1299_config_used.yaml",
+    "sha256": "0a0f0b4d0eb5cbac901e533376a4f1891714bfa397dc5754c79cb6d824e731a7"
+  },
+  {
+    "source": "E:\\ChenXZ\\Desktop\\data\\SSVEP\\results\\run_20261116_230837_547616_all\\statistics\\final_validation.json",
+    "copy": "provenance\\ADS1299_final_validation.json",
+    "sha256": "f7b3e56d9084e7b351c21b05110fdc99c65c3c59c58cb97d9b93769c555fdbfd"
+  },
+  {
+    "source": "E:\\ChenXZ\\Desktop\\data\\SSVEP\\results\\run_20261116_230837_547616_all\\logs\\environment.json",
+    "copy": "provenance\\ADS1299_environment.json",
+    "sha256": "67795a1ae613fd903db3f89843fd51b21fca1c8eccf63c4acf93e1dbeaa54b22"
+  }
+]

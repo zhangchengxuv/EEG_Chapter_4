@@ -1,0 +1,12 @@
+{
+  "model_sha256": "b3779507dc9b9a848d75d4959b2a54c92d6bbc704f8326eeb7ffb35622052c54",
+  "data_sha256": "f286722ce1b765b2da5c66d35fdff32b4491e18840cf6bbcbcbe2c3ae6819297",
+  "protocol_code_hashes_match": true,
+  "source_copy_and_model_hashes_match": true,
+  "saved_probabilities_and_csv_metrics_match": true,
+  "all_128_trials_and_29_flags_retained": true,
+  "unlabelled_predictions_saved_separately": true,
+  "latest_model_pointer_unchanged": true,
+  "test_inference_repeated_for_verification": false,
+  "plots_checked_in_chinese": true
+}

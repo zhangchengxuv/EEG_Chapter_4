@@ -1,0 +1,10 @@
+{
+  "candidate": "standard8_aug_seed42",
+  "architecture": "standard8_aug",
+  "family": "standard",
+  "seed": 42,
+  "best_epoch": 110,
+  "epochs_run": 110,
+  "validation_accuracy": 0.9765625,
+  "validation_loss": 0.15589842200279236
+}

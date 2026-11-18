@@ -1,0 +1,10 @@
+{
+  "candidate": "hybrid_regularized_seed42",
+  "architecture": "hybrid_regularized",
+  "kind": "hybrid",
+  "seed": 42,
+  "best_epoch": 65,
+  "epochs_run": 125,
+  "validation_accuracy": 0.7142857142857143,
+  "validation_loss": 0.8454140424728394
+}

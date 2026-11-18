@@ -1,0 +1,10 @@
+{
+  "maximum_epochs": 110,
+  "epochs_actually_run": 110,
+  "selected_epoch": 109,
+  "first_110_epochs_exactly_match_300_epoch_run": true,
+  "code_and_data_hashes_verified": true,
+  "frozen_model_unchanged_during_external_evaluation": true,
+  "previous_300_epoch_run_preserved": true,
+  "latest_run": "run_110epochs"
+}

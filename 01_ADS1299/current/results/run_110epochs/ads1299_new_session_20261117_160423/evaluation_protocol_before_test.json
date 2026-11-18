@@ -1,0 +1,28 @@
+{
+  "evaluation_type": "新增ADS1299独立采集会话测试",
+  "session_name": "20261117_160423",
+  "started_at_shanghai": "2026-11-17T17:36:37.370095+08:00",
+  "source_input": "/home/zhangchenxu/Documents/00_Project/SSVEP/01_ADS1299/ADS1299_20261117_160423_allTrials_500Hz_0p5to3p5s_V.npz",
+  "stored_input": "data/independent_tests/20261117_160423/ADS1299_20261117_160423_allTrials_500Hz_0p5to3p5s_V.npz",
+  "input_sha256": "f286722ce1b765b2da5c66d35fdff32b4491e18840cf6bbcbcbe2c3ae6819297",
+  "model": "models/run_110epochs/model.pt",
+  "model_sha256_before": "b3779507dc9b9a848d75d4959b2a54c92d6bbc704f8326eeb7ffb35622052c54",
+  "model_run": "run_110epochs",
+  "selected_model_epochs": [
+    109
+  ],
+  "normalizer": "只应用旧ADS1299训练集统计量，不重新拟合",
+  "retraining": false,
+  "test_based_hyperparameter_selection": false,
+  "quality_policy": "保留全部试次及全部质量标记，主指标不剔除任何试次",
+  "device": "cpu",
+  "python": "3.9.21 (main, Dec 11 2024, 16:24:11) \n[GCC 11.2.0]",
+  "torch": "2.7.0+cu126",
+  "code_sha256": {
+    "evaluate_new_session.py": "14de094cb0457aef6ac62f4cf3d19a403efa5be31b60e56d44e5b700dd3c77b2",
+    "predict.py": "33315fea67dd74ba17a9911b167f258e49b1ea24d8b00b39d15811ecb680115a",
+    "ads1299_data.py": "098a73b450c4255197ea8a972c0d420554187f73171362c9f707893ab4fc31c0",
+    "ads1299_models.py": "da1f07ebbc42a8a5eea826373d6dba9f7db3db146f18f60ca23960dc53e9ab4b",
+    "plots.py": "adeda39a38f3a93a14511b1d5258b30236bbf25e145e75d17bdc02d6a098d53b"
+  }
+}

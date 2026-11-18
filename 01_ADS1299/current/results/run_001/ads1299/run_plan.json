@@ -1,0 +1,129 @@
+{
+  "started_at_shanghai": "2026-11-17T00:48:57.861700+08:00",
+  "settings": {
+    "model": {
+      "name": "eegnet_long",
+      "family": "standard",
+      "filters": 16,
+      "kernel": 251,
+      "lr": 0.0005,
+      "weight_decay": 0.01
+    },
+    "training": {
+      "seed": 42,
+      "epochs": 300,
+      "patience": 60,
+      "batch_size": 32,
+      "gradient_clip": 5.0
+    },
+    "model_defaults": {
+      "depth_multiplier": 2,
+      "dropout": 0.5,
+      "batch_norm_momentum": 0.1,
+      "batch_norm_eps": 0.001,
+      "spatial_max_norm": 1.0,
+      "classifier_max_norm": 0.25
+    },
+    "input": {
+      "device": "ADS1299",
+      "unit": "V",
+      "sampling_rate_hz": 500,
+      "shape_per_trial": [
+        8,
+        1500
+      ],
+      "window_seconds": [
+        0.5,
+        3.5
+      ]
+    },
+    "split_policy": "完整采集会话：前两次训练288，第三次验证128，第四次测试128",
+    "selection_rule": "验证准确率优先，交叉熵次优，仅选择轮次；不重新搜索架构和超参数",
+    "initialization": "从随机初始化重新训练，不加载任何历史模型权重",
+    "external_protocol": {
+      "device": "g.Nautilus",
+      "sample_count": 339,
+      "unit": "uV",
+      "sampling_rate_hz": 250,
+      "original_window_seconds": [
+        0,
+        4
+      ],
+      "crop_indices": [
+        125,
+        875
+      ],
+      "evaluation_window_seconds": [
+        0.5,
+        3.5
+      ],
+      "normalizer": "只使用 ADS1299 训练集统计量，不在 g.Nautilus 重新拟合",
+      "scope": "已有历史数据的跨设备外部复测，独立保存；不是新采集盲测",
+      "filter_difference": "ADS1299原处理1-80Hz及50Hz陷波；g.Nautilus原处理30Hz采集低通、50Hz陷波和离线4Hz高通"
+    }
+  },
+  "sessions": {
+    "train": [
+      "2026-11-16_19-26-41_699598",
+      "2026-11-16_20-02-53_371163"
+    ],
+    "validation": [
+      "2026-11-16_20-41-28_436823"
+    ],
+    "test": [
+      "2026-11-16_21-07-48_189212"
+    ]
+  },
+  "split_counts": {
+    "train": 288,
+    "validation": 128,
+    "test": 128
+  },
+  "initialization": "从随机初始化重新训练，未加载历史权重",
+  "external_data_used_for_training": false,
+  "code_sha256": {
+    "code/ads1299_data.py": "098a73b450c4255197ea8a972c0d420554187f73171362c9f707893ab4fc31c0",
+    "code/ads1299_models.py": "da1f07ebbc42a8a5eea826373d6dba9f7db3db146f18f60ca23960dc53e9ab4b",
+    "code/plots.py": "adeda39a38f3a93a14511b1d5258b30236bbf25e145e75d17bdc02d6a098d53b",
+    "code/predict.py": "33315fea67dd74ba17a9911b167f258e49b1ea24d8b00b39d15811ecb680115a",
+    "code/test_gnautilus.py": "3fa93cfead3c36d2ada8770235ad89c4135c092b266072881e378273f217fd40",
+    "code/train.py": "ba047bcf649d7fbb652c21bd5602191362f0780b4e834d7182f168d462847a5b",
+    "code/training.py": "bbbe200be21b01467e707061297adbcf225102ec261385d8988fa06a4ce90a2f"
+  },
+  "data_sha256": {
+    "data/ADS1299/ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.npz": "ef65edde043c445a39903a01721386fa64fb0f7b162a364aa0e0aa6752c14c86",
+    "data/ADS1299/ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.npz": "4790c46e3f894be58ab56fb76437e07d92d436b3582bb7bbb60eb873085e2f77",
+    "data/ADS1299/ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.npz": "7f30664f25a7096e74e0b039fdc4ea0463d567579828f229284fc77068cc7006",
+    "data/ADS1299/ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.npz": "3d42873147fdb9a4ee4c5407180fd3e952260bc1e43f682c18660e2968c719b2",
+    "data/ADS1299/ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.npz": "c9f401a59d3afdf9585ce4e13bcd2660813eb92b929420002a66e57db5ddca47",
+    "data/ADS1299/ML_USAGE.md": "7846d1fc464bfd5aa021798405d96bce712bbe048cef747df5f2bc4488f34582",
+    "data/ADS1299/NPZ_DATASETS_README.md": "9d2aa0db787aaed44c818073a9b3a69bcfd2e5e7f23d8b1293c095a25cb21e50",
+    "data/ADS1299/README.md": "d2c85eb5fc02347712dfcdc8c8acc38234f644724ea1c95fb2fcf3b7bcd8cfd4",
+    "data/ADS1299/load_dataset.py": "e385bd53b6547f393ecaa06255c1343a762823d77646697e4bd22ee3c1e93c98",
+    "data/ADS1299/npz_datasets_manifest.json": "637685c0180326ff57cf0a1cecee08ab52bc8e868753ae468a69f9437ceb6a79",
+    "data/ADS1299/npz_metadata/ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.metadata.json": "c46479dc777bcaebb8dfc1a302f2ad91e37c163cfed7d38546030d064e8745d3",
+    "data/ADS1299/npz_metadata/ADS1299_20261116_192641_allTrials_500Hz_0p5to3p5s_V.trials.csv": "6a4a3c4ec4376862eab62f72e30b8d2a8b4a672bb98c52c05ce3411fd0db70aa",
+    "data/ADS1299/npz_metadata/ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.metadata.json": "6bfe20e5c08efa09447cc50bd082119c51c0d576fc24b39008f8bef49e5d6cf6",
+    "data/ADS1299/npz_metadata/ADS1299_20261116_200253_allTrials_500Hz_0p5to3p5s_V.trials.csv": "11b7f9cf25dba5d4d81b47587c78c7d1d2a618ca07af165117d7336f2ac0d35a",
+    "data/ADS1299/npz_metadata/ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.metadata.json": "28dc05c76ee788821395a4de42c9cd35000ca28c36d5f01f624a26b07fc9a6fb",
+    "data/ADS1299/npz_metadata/ADS1299_20261116_204128_allTrials_500Hz_0p5to3p5s_V.trials.csv": "76052dbef94da52ddea84fefd1f83539a65aedd06a81de8702d8ec3c5f2e4384",
+    "data/ADS1299/npz_metadata/ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.metadata.json": "fb25b75823342eab3336c5b00840817c613b74ca96d89b8263e28f91dd19315d",
+    "data/ADS1299/npz_metadata/ADS1299_20261116_210748_allTrials_500Hz_0p5to3p5s_V.trials.csv": "09b5d63d18203db77ed563a6a1b4848d0effcf7a3c65b616660aa21659b4e3e1",
+    "data/ADS1299/npz_metadata/ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.metadata.json": "1d072a6a0992b0f78ea88d2d37deafd06653b6dbbd9ab57cbf2000dd3bebdb9f",
+    "data/ADS1299/npz_metadata/ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.trials.csv": "bcbb521599fdb52bfd1b789b83e47c54640de32a88f881a7129113f523e8ee98",
+    "data/ADS1299/package_validation.json": "26e5ee6cf28f01cf8919964df6cc461188ee207bec9fe7e9c1abc56f285327cd",
+    "data/ADS1299/provenance/ADS1299_config_used.yaml": "0a0f0b4d0eb5cbac901e533376a4f1891714bfa397dc5754c79cb6d824e731a7",
+    "data/ADS1299/provenance/ADS1299_environment.json": "67795a1ae613fd903db3f89843fd51b21fca1c8eccf63c4acf93e1dbeaa54b22",
+    "data/ADS1299/provenance/ADS1299_final_validation.json": "f7b3e56d9084e7b351c21b05110fdc99c65c3c59c58cb97d9b93769c555fdbfd",
+    "data/ADS1299/provenance/source_manifest.json": "31f895b6d1c75d4caae9f1646edbe49e83e6dec9cd6922e5683fc03ce5d8c186"
+  },
+  "python": "3.9.21 (main, Dec 11 2024, 16:24:11) \n[GCC 11.2.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "torch": "2.7.0+cu126",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce GTX 1650",
+  "cuda": "12.6",
+  "cudnn": 90501
+}

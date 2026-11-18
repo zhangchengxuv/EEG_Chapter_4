@@ -1,0 +1,164 @@
+{
+  "model_state": {
+    "raw.temporal.0.weight": {
+      "shape": [
+        16,
+        1,
+        1,
+        251
+      ],
+      "dtype": "torch.float32",
+      "sha256": "4f80095af9b77bc27b72dd791bb1a3f9e4787952721a0b9385dc724a873c4468"
+    },
+    "raw.temporal.1.weight": {
+      "shape": [
+        16
+      ],
+      "dtype": "torch.float32",
+      "sha256": "13cd0a791eba4e0b22013e6f01626754b2ea22184b5271af3f91e503ef5fa1b3"
+    },
+    "raw.temporal.1.bias": {
+      "shape": [
+        16
+      ],
+      "dtype": "torch.float32",
+      "sha256": "50d68d0315e8d41f01ee30581ea5b55ba58d8a05e90f6801d72644de3752cadb"
+    },
+    "raw.temporal.1.running_mean": {
+      "shape": [
+        16
+      ],
+      "dtype": "torch.float32",
+      "sha256": "95ae1a4f1400cac092381d6f0f68d136a7a9073976c8268ed63a30e57494727d"
+    },
+    "raw.temporal.1.running_var": {
+      "shape": [
+        16
+      ],
+      "dtype": "torch.float32",
+      "sha256": "79975dc4d304ffa286014922fc52e0837c29dc468fea99cae46167dab0912b7a"
+    },
+    "raw.temporal.1.num_batches_tracked": {
+      "shape": [],
+      "dtype": "torch.int64",
+      "sha256": "94eb6929abc12b18c79da64216f52ccd672c49e8fd56bcab3ce0e65beb918aff"
+    },
+    "raw.spatial_conv.weight": {
+      "shape": [
+        32,
+        1,
+        8,
+        1
+      ],
+      "dtype": "torch.float32",
+      "sha256": "85d5e7e977c98fe07cfcf65c0111421d0fa370390e5c0b1e2407c3004c9b3277"
+    },
+    "raw.norm.weight": {
+      "shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sha256": "3976a106948c8375979b31581ce215fefc3ad4bbdeac71ccec3dce7e309946ee"
+    },
+    "raw.norm.bias": {
+      "shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sha256": "733b1cb086e37577949f5a92314772c1e97b1423f1b8c7bb6fbb78c071e1e2c6"
+    },
+    "raw.norm.running_mean": {
+      "shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sha256": "1e3f7d78fa284bd1563832f0e40177ae6ee6b3ac7b146519359eeeefe807f82f"
+    },
+    "raw.norm.running_var": {
+      "shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sha256": "0d22bdc03a0a7de219a955126709f23d0facada039798c7834e93cdac687183c"
+    },
+    "raw.norm.num_batches_tracked": {
+      "shape": [],
+      "dtype": "torch.int64",
+      "sha256": "94eb6929abc12b18c79da64216f52ccd672c49e8fd56bcab3ce0e65beb918aff"
+    },
+    "raw.tail.4.weight": {
+      "shape": [
+        32,
+        1,
+        1,
+        32
+      ],
+      "dtype": "torch.float32",
+      "sha256": "f7deb8136a96da222a9e8c20733871071efecf51e0ffc6a05773bdc5a8fbdc64"
+    },
+    "raw.tail.5.weight": {
+      "shape": [
+        32,
+        32,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "sha256": "9e637093e4fbaaee5ba6786ab2732f6e9f3f5771b502cbfe619a6026f2a72fcc"
+    },
+    "raw.tail.6.weight": {
+      "shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sha256": "9637943764bf8241746a1aa02a6b1c3ff879b4edbd9550ff55dbb2f58727801e"
+    },
+    "raw.tail.6.bias": {
+      "shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sha256": "0c1cf8dbb76b34e1d8dc7eed629a85ba5bf53f69ed5731b04de779217120debe"
+    },
+    "raw.tail.6.running_mean": {
+      "shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sha256": "a4029eb3ff9f0630d1939f0d7cd49ccff136c967806496f0f42714cd4ff32fa4"
+    },
+    "raw.tail.6.running_var": {
+      "shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sha256": "ab818368c147ce4f167196f4d3d283a51b47bd716ffa72625db7f7f92181c29f"
+    },
+    "raw.tail.6.num_batches_tracked": {
+      "shape": [],
+      "dtype": "torch.int64",
+      "sha256": "94eb6929abc12b18c79da64216f52ccd672c49e8fd56bcab3ce0e65beb918aff"
+    },
+    "raw.classifier.weight": {
+      "shape": [
+        4,
+        736
+      ],
+      "dtype": "torch.float32",
+      "sha256": "e7e634a95576cf8c37fe1d67a6f23baf38c62b7afcf62a291e0f8c67494ab746"
+    },
+    "raw.classifier.bias": {
+      "shape": [
+        4
+      ],
+      "dtype": "torch.float32",
+      "sha256": "76f27ade31ea28f687c2194cd4b2ce9b0ebb4cf6d028ccf7ab1440d2ac04ba3a"
+    }
+  },
+  "statistics": {
+    "mean": "c3d714622394ca6a1b1eabed8dea52379bed39622d6182191c9ff860d817811d",
+    "std": "cc714d44e4042ff9b88ed296b39cee4460ccbfeb2683b70871a6c0a0fa03cf59",
+    "score_mean": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+    "score_std": "498983d3523edee13fe8f5185f80bc0741b90fa7e7b6298319e77da62cf744bb"
+  }
+}

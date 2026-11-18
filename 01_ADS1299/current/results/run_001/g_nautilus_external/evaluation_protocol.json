@@ -1,0 +1,33 @@
+{
+  "device": "g.Nautilus",
+  "sample_count": 339,
+  "unit": "uV",
+  "sampling_rate_hz": 250,
+  "original_window_seconds": [
+    0,
+    4
+  ],
+  "crop_indices": [
+    125,
+    875
+  ],
+  "evaluation_window_seconds": [
+    0.5,
+    3.5
+  ],
+  "normalizer": "只使用 ADS1299 训练集统计量，不在 g.Nautilus 重新拟合",
+  "scope": "已有历史数据的跨设备外部复测，独立保存；不是新采集盲测",
+  "filter_difference": "ADS1299原处理1-80Hz及50Hz陷波；g.Nautilus原处理30Hz采集低通、50Hz陷波和离线4Hz高通",
+  "model_sha256_before": "ebedf81e3c5df1dde661062372fdd790c439b4b3a4cbeebaa72097fe2bcfff40",
+  "normalizer_fitted_on": "仅 ADS1299 训练集",
+  "current_model_trained_on_gnautilus": false,
+  "label_or_frequency_used_as_input": false,
+  "data_sha256": {
+    "data/gNautilus/Metadata/S01_trials.csv": "0564fc938dee562d6009db75f7fd59877d3bec4273fdb0a3b7658faaee59bd6e",
+    "data/gNautilus/Metadata/S02_trials.csv": "a4b4c6d2dc456be9feb15722b9116a5894a2c6de7b38adb1a941c73d09f743fb",
+    "data/gNautilus/Metadata/S03_trials.csv": "c0a314c36675e3610cedddca9f4623789ca498ba8c79eed735ac8278a8450d81",
+    "data/gNautilus/NumPy/S01_accepted_0to4_uv.npz": "7cc3248136aa2a97241420bfd2d6cf50ef5f0b3f07d1e9a6c720a136347d04b4",
+    "data/gNautilus/NumPy/S02_accepted_0to4_uv.npz": "4638ec574f41daa6c179bef9a4f74fecbd78f5af5c3ff2bf6b06d81a45bb5472",
+    "data/gNautilus/NumPy/S03_accepted_0to4_uv.npz": "edabc31beb56e6b9dbb650fa26cc77e866ffa4f4a19103d38792c1434f8ef60c"
+  }
+}

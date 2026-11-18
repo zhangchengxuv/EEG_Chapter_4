@@ -1,0 +1,105 @@
+{
+  "all_passed": true,
+  "checks": {
+    "npz_shape_matches_metadata": true,
+    "channel_order_matches": true,
+    "all_finite": true,
+    "unique_trials": true,
+    "labels_match_markers": true,
+    "trial_ids_match_csv": true,
+    "trial_ids_match_fif": true,
+    "physical_mne_unit": true,
+    "unit_consistent": true,
+    "npz_matches_fif_float32": true,
+    "groups_disjoint": true,
+    "trial_leakage_absent": true,
+    "classes_present": true,
+    "sfreq_and_epoch_length": true,
+    "plots_paired": true,
+    "raw_input_hashes_unchanged": true
+  },
+  "records": [
+    {
+      "recording_id": "2026-11-16_19-26-41_699598",
+      "epoch_count": 96,
+      "raw_shape": [
+        8,
+        497823
+      ],
+      "epochs_exact_raw_slices": true,
+      "event_count_matches": true,
+      "all_protocols_verified": true,
+      "csv_fif_voltage_match": true,
+      "set_marker_match": true,
+      "fif_marker_match": true,
+      "all_montage_positions_match": true,
+      "fft_axis_correct": true,
+      "psd_axis_correct": true
+    },
+    {
+      "recording_id": "2026-11-16_20-02-53_371163",
+      "epoch_count": 192,
+      "raw_shape": [
+        8,
+        1054569
+      ],
+      "epochs_exact_raw_slices": true,
+      "event_count_matches": true,
+      "all_protocols_verified": true,
+      "csv_fif_voltage_match": true,
+      "set_marker_match": true,
+      "fif_marker_match": true,
+      "all_montage_positions_match": true,
+      "fft_axis_correct": true,
+      "psd_axis_correct": true
+    },
+    {
+      "recording_id": "2026-11-16_20-41-28_436823",
+      "epoch_count": 128,
+      "raw_shape": [
+        8,
+        679309
+      ],
+      "epochs_exact_raw_slices": true,
+      "event_count_matches": true,
+      "all_protocols_verified": true,
+      "csv_fif_voltage_match": true,
+      "set_marker_match": true,
+      "fif_marker_match": true,
+      "all_montage_positions_match": true,
+      "fft_axis_correct": true,
+      "psd_axis_correct": true
+    },
+    {
+      "recording_id": "2026-11-16_21-07-48_189212",
+      "epoch_count": 128,
+      "raw_shape": [
+        8,
+        680920
+      ],
+      "epochs_exact_raw_slices": true,
+      "event_count_matches": true,
+      "all_protocols_verified": true,
+      "csv_fif_voltage_match": true,
+      "set_marker_match": true,
+      "fif_marker_match": true,
+      "all_montage_positions_match": true,
+      "fft_axis_correct": true,
+      "psd_axis_correct": true
+    }
+  ],
+  "shape": [
+    544,
+    8,
+    1500
+  ],
+  "class_counts": {
+    "0": 136,
+    "1": 136,
+    "2": 136,
+    "3": 136
+  },
+  "png_count": 88,
+  "unit_tests": "python -m unittest discover -s tests -v；模拟数据只在 tempfile",
+  "synchronization_limit": "软件估计，未光电/硬件验证；通过程序一致性检查不表示同步精度或识别效果已验证。"
+}

@@ -1,0 +1,62 @@
+{
+  "model": {
+    "name": "eegnet_long",
+    "family": "standard",
+    "filters": 16,
+    "kernel": 251,
+    "lr": 0.0005,
+    "weight_decay": 0.01
+  },
+  "training": {
+    "seed": 42,
+    "epochs": 300,
+    "patience": 60,
+    "batch_size": 32,
+    "gradient_clip": 5.0
+  },
+  "model_defaults": {
+    "depth_multiplier": 2,
+    "dropout": 0.5,
+    "batch_norm_momentum": 0.1,
+    "batch_norm_eps": 0.001,
+    "spatial_max_norm": 1.0,
+    "classifier_max_norm": 0.25
+  },
+  "input": {
+    "device": "ADS1299",
+    "unit": "V",
+    "sampling_rate_hz": 500,
+    "shape_per_trial": [
+      8,
+      1500
+    ],
+    "window_seconds": [
+      0.5,
+      3.5
+    ]
+  },
+  "split_policy": "完整采集会话：前两次训练288，第三次验证128，第四次测试128",
+  "selection_rule": "验证准确率优先，交叉熵次优，仅选择轮次；不重新搜索架构和超参数",
+  "initialization": "从随机初始化重新训练，不加载任何历史模型权重",
+  "external_protocol": {
+    "device": "g.Nautilus",
+    "sample_count": 339,
+    "unit": "uV",
+    "sampling_rate_hz": 250,
+    "original_window_seconds": [
+      0,
+      4
+    ],
+    "crop_indices": [
+      125,
+      875
+    ],
+    "evaluation_window_seconds": [
+      0.5,
+      3.5
+    ],
+    "normalizer": "只使用 ADS1299 训练集统计量，不在 g.Nautilus 重新拟合",
+    "scope": "已有历史数据的跨设备外部复测，独立保存；不是新采集盲测",
+    "filter_difference": "ADS1299原处理1-80Hz及50Hz陷波；g.Nautilus原处理30Hz采集低通、50Hz陷波和离线4Hz高通"
+  }
+}

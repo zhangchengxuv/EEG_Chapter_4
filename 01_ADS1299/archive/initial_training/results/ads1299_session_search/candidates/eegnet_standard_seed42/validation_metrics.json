@@ -1,0 +1,10 @@
+{
+  "candidate": "eegnet_standard_seed42",
+  "architecture": "eegnet_standard",
+  "family": "standard",
+  "seed": 42,
+  "best_epoch": 212,
+  "epochs_run": 272,
+  "validation_accuracy": 1.0,
+  "validation_loss": 0.006548016332089901
+}

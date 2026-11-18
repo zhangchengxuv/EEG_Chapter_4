@@ -1,0 +1,10 @@
+{
+  "selected_members": [
+    "eegnet_long_seed42"
+  ],
+  "architecture": "eegnet_long",
+  "single_validation_accuracy": 1.0,
+  "ensemble_validation_accuracy": 1.0,
+  "ensemble_validation_loss": 0.0030405032448470592,
+  "rule": "只按验证集比较单模型与固定三种子概率平均"
+}

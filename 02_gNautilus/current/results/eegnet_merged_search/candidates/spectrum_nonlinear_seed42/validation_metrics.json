@@ -1,0 +1,10 @@
+{
+  "candidate": "spectrum_nonlinear_seed42",
+  "architecture": "spectrum_nonlinear",
+  "kind": "spectral",
+  "seed": 42,
+  "best_epoch": 240,
+  "epochs_run": 240,
+  "validation_accuracy": 0.7857142857142857,
+  "validation_loss": 0.5972090363502502
+}

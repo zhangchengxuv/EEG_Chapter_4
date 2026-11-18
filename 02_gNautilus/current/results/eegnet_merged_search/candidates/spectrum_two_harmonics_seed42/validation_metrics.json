@@ -1,0 +1,10 @@
+{
+  "candidate": "spectrum_two_harmonics_seed42",
+  "architecture": "spectrum_two_harmonics",
+  "kind": "spectral",
+  "seed": 42,
+  "best_epoch": 57,
+  "epochs_run": 117,
+  "validation_accuracy": 0.7619047619047619,
+  "validation_loss": 0.6384331583976746
+}

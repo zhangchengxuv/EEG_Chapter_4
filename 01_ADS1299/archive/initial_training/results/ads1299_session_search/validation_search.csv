@@ -1,0 +1,13 @@
+﻿candidate,architecture,family,seed,best_epoch,epochs_run,validation_accuracy,validation_loss
+eegnet_standard_seed42,eegnet_standard,standard,42,212,272,1.0,0.006548016332089901
+eegnet_long_seed42,eegnet_long,standard,42,293,300,1.0,0.0024492256343364716
+energy_previous_seed42,energy_previous,energy,42,300,300,1.0,0.054290771484375
+energy_focus_seed42,energy_focus,energy,42,288,300,1.0,0.04965191334486008
+energy_short_seed42,energy_short,energy,42,298,300,1.0,0.12246878445148468
+energy_wide_seed42,energy_wide,energy,42,297,300,1.0,0.017128512263298035
+energy_regularized_seed42,energy_regularized,energy,42,297,300,1.0,0.04985681548714638
+spectrum_linear_seed42,spectrum_linear,spectral,42,190,250,0.953125,0.2535415589809418
+spectrum_nonlinear_seed42,spectrum_nonlinear,spectral,42,218,278,0.9765625,0.1530350297689438
+hybrid_energy_seed42,hybrid_energy,hybrid,42,136,196,0.984375,0.14986789226531982
+eegnet_long_seed43,eegnet_long,standard,43,290,300,1.0,0.004142082296311855
+eegnet_long_seed44,eegnet_long,standard,44,256,300,1.0,0.002612288109958172

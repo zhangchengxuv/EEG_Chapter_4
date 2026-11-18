@@ -1,0 +1,15 @@
+{
+  "candidate": "eegnet_long_seed42",
+  "architecture": "eegnet_long",
+  "family": "standard",
+  "seed": 42,
+  "best_epoch": 293,
+  "epochs_run": 300,
+  "validation_accuracy": 1.0,
+  "validation_loss": 0.0024492256343364716,
+  "architecture_fixed_before_training": true,
+  "selected_members": [
+    "eegnet_long_seed42"
+  ],
+  "test_based_selection": false
+}

@@ -1,0 +1,37 @@
+{
+  "config": {
+    "name": "eegnet_long",
+    "family": "standard",
+    "filters": 16,
+    "kernel": 251,
+    "lr": 0.0005,
+    "weight_decay": 0.01
+  },
+  "seed": 42,
+  "best_epoch": 109,
+  "input_unit": "V",
+  "input_sampling_rate_hz": 500,
+  "input_shape": [
+    "试次数",
+    8,
+    1500
+  ],
+  "channels": [
+    "PO7",
+    "PO3",
+    "POz",
+    "PO4",
+    "PO8",
+    "O1",
+    "Oz",
+    "O2"
+  ],
+  "classes": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "internal_sampling_rate_hz": 250,
+  "internal_samples": 750
+}

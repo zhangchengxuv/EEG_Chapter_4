@@ -1,0 +1,10 @@
+{
+  "candidate": "long_kernel_seed42",
+  "architecture": "long_kernel",
+  "kind": "tuned",
+  "seed": 42,
+  "best_epoch": 217,
+  "epochs_run": 240,
+  "validation_accuracy": 0.9285714285714286,
+  "validation_loss": 0.24892395734786987
+}

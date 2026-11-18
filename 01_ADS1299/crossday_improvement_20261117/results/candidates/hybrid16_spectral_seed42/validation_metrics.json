@@ -1,0 +1,10 @@
+{
+  "candidate": "hybrid16_spectral_seed42",
+  "architecture": "hybrid16_spectral",
+  "family": "hybrid",
+  "seed": 42,
+  "best_epoch": 62,
+  "epochs_run": 110,
+  "validation_accuracy": 0.859375,
+  "validation_loss": 0.6828732490539551
+}

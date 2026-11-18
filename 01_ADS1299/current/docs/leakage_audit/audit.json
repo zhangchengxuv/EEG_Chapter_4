@@ -1,0 +1,70 @@
+{
+  "source_hashes_match_original_run": true,
+  "input_hashes_match_original_run": true,
+  "session_and_run_groups_disjoint": true,
+  "model_does_not_take_trial_id_position_frequency_or_label_as_input": true,
+  "raw_continuous_recordings_present_in_package": false,
+  "upstream_export_pipeline_independently_audited": false,
+  "test_used_to_tune_new_model": false,
+  "position_only_control": {
+    "method": "training position-in-run majority label, without EEG",
+    "all_training_positions_have_unique_class": true,
+    "results": {
+      "validation": {
+        "correct": 128,
+        "count": 128,
+        "accuracy": 1.0
+      },
+      "test": {
+        "correct": 128,
+        "count": 128,
+        "accuracy": 1.0
+      }
+    },
+    "interpretation": "表明刺激顺序与类别完全混淆；EEGNet 没有输入序号，故不能仅由此证明它实际利用了顺序。"
+  },
+  "signal_similarity": {
+    "unique_signal_contents": 544,
+    "total_trials": 544,
+    "validation": {
+      "median_max_absolute_zero_lag_correlation": 0.3768118331848793,
+      "largest_absolute_zero_lag_correlation": 0.5184308816909359,
+      "zero_lag_nearest_waveform_label_accuracy": 0.265625
+    },
+    "test": {
+      "median_max_absolute_zero_lag_correlation": 0.35053532207752897,
+      "largest_absolute_zero_lag_correlation": 0.5522615971899034,
+      "zero_lag_nearest_waveform_label_accuracy": 0.3203125
+    }
+  },
+  "frozen_model_controls": {
+    "original_validation_accuracy": 1.0,
+    "input_order_max_probability_difference": 0.0,
+    "input_order_labels_identical": true,
+    "zero_input_accuracy": 0.25,
+    "independent_noise_accuracy": 0.234375,
+    "interpretation": "输入序号未被显式使用；零/噪声对照只能检查部分程序错误，不能证明所有隐蔽混淆都不存在。"
+  },
+  "shuffled_label_control": {
+    "label_permutation_seed": 271828,
+    "initialization_seed": 42,
+    "epochs_fixed": 293,
+    "validation_based_epoch_selection": false,
+    "training_accuracy_against_shuffled_labels": 0.9548611111111112,
+    "validation_accuracy_against_real_labels": 0.140625,
+    "validation_correct": 18,
+    "validation_count": 128,
+    "interpretation": "这是一次固定随机置换负对照，不是多次置换检验，也不能排除固定顺序或刺激伪迹混淆。"
+  },
+  "frozen_model_generalization_gap": {
+    "train_correct_eval_mode": 288,
+    "train_count": 288,
+    "train_accuracy_eval_mode": 1.0,
+    "train_cross_entropy_eval_mode": 0.0012156887678429484,
+    "test_accuracy_from_saved_records": 1.0,
+    "test_cross_entropy_from_saved_records": 0.009710885051972214
+  },
+  "dataset_file": "ADS1299_20261116_combined4Recordings_allTrials_500Hz_0p5to3p5s_V.npz",
+  "trial_count": 544,
+  "audit_script_sha256": "74d35ea6a8b96dbc941ed80530828281f458cc5c060d81cf20047ecc900a9481"
+}

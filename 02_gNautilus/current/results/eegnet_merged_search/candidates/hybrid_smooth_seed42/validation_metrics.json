@@ -1,0 +1,10 @@
+{
+  "candidate": "hybrid_smooth_seed42",
+  "architecture": "hybrid_smooth",
+  "kind": "hybrid",
+  "seed": 42,
+  "best_epoch": 30,
+  "epochs_run": 90,
+  "validation_accuracy": 0.7142857142857143,
+  "validation_loss": 0.8502252697944641
+}

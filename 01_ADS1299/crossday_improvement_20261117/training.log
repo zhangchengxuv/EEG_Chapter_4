@@ -1,0 +1,50 @@
+
+候选 energy8_seed42
+  epoch=1, val_acc=25.00%, val_loss=1.6844
+  epoch=50, val_acc=100.00%, val_loss=0.4426
+  epoch=100, val_acc=100.00%, val_loss=0.2529
+  最佳轮次=110, 验证准确率=100.00%
+
+候选 energy16_seed42
+  epoch=1, val_acc=27.34%, val_loss=1.4615
+  epoch=50, val_acc=99.22%, val_loss=0.3686
+  epoch=100, val_acc=100.00%, val_loss=0.1453
+  最佳轮次=110, 验证准确率=100.00%
+
+候选 hybrid8_seed42
+  epoch=1, val_acc=42.97%, val_loss=1.2455
+  epoch=50, val_acc=91.41%, val_loss=0.4866
+  epoch=100, val_acc=95.31%, val_loss=0.3495
+  最佳轮次=109, 验证准确率=96.09%
+
+候选 standard8_aug_seed42
+  epoch=1, val_acc=23.44%, val_loss=1.3923
+  epoch=50, val_acc=56.25%, val_loss=0.8953
+  epoch=100, val_acc=88.28%, val_loss=0.4548
+  最佳轮次=110, 验证准确率=97.66%
+{"name": "baseline", "target_accuracy": 0.6875, "target_macro_f1": 0.672329895346677, "source_validation_accuracy": 1.0, "source_test_accuracy": 1.0}
+{"name": "energy8", "target_accuracy": 0.609375, "target_macro_f1": 0.6145398787116756, "source_validation_accuracy": 1.0, "source_test_accuracy": 1.0}
+{"name": "energy16", "target_accuracy": 0.5625, "target_macro_f1": 0.5565667641325536, "source_validation_accuracy": 1.0, "source_test_accuracy": 1.0}
+{"name": "hybrid8", "target_accuracy": 0.7265625, "target_macro_f1": 0.7297944314337756, "source_validation_accuracy": 0.9609375, "source_test_accuracy": 0.8984375}
+{"name": "standard8_aug", "target_accuracy": 0.3203125, "target_macro_f1": 0.2706270627062707, "source_validation_accuracy": 0.9765625, "source_test_accuracy": 0.921875}
+实验完成；模型和源文件均已核验。
+
+候选 hybrid8_spectral_seed42
+  epoch=1, val_acc=46.88%, val_loss=1.1752
+  epoch=50, val_acc=79.69%, val_loss=0.7547
+  epoch=100, val_acc=82.81%, val_loss=0.6042
+  最佳轮次=110, 验证准确率=84.38%
+
+候选 hybrid16_spectral_seed42
+  epoch=1, val_acc=50.00%, val_loss=1.1770
+  epoch=50, val_acc=82.03%, val_loss=0.7371
+  epoch=100, val_acc=84.38%, val_loss=0.5790
+  最佳轮次=62, 验证准确率=85.94%
+{"name": "baseline", "target_accuracy": 0.6875, "target_macro_f1": 0.672329895346677, "source_validation_accuracy": 1.0, "source_test_accuracy": 1.0}
+{"name": "energy8", "target_accuracy": 0.609375, "target_macro_f1": 0.6145398787116756, "source_validation_accuracy": 1.0, "source_test_accuracy": 1.0}
+{"name": "energy16", "target_accuracy": 0.5625, "target_macro_f1": 0.5565667641325536, "source_validation_accuracy": 1.0, "source_test_accuracy": 1.0}
+{"name": "hybrid8", "target_accuracy": 0.7265625, "target_macro_f1": 0.7297944314337756, "source_validation_accuracy": 0.9609375, "source_test_accuracy": 0.8984375}
+{"name": "standard8_aug", "target_accuracy": 0.3203125, "target_macro_f1": 0.2706270627062707, "source_validation_accuracy": 0.9765625, "source_test_accuracy": 0.921875}
+{"name": "hybrid8_spectral", "target_accuracy": 0.6875, "target_macro_f1": 0.6859134835667917, "source_validation_accuracy": 0.84375, "source_test_accuracy": 0.765625}
+{"name": "hybrid16_spectral", "target_accuracy": 0.671875, "target_macro_f1": 0.6713526669409022, "source_validation_accuracy": 0.859375, "source_test_accuracy": 0.7734375}
+实验完成；模型和源文件均已核验。

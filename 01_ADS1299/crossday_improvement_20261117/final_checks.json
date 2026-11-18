@@ -1,0 +1,7 @@
+{
+  "train_only_statistics_exact_match": true,
+  "cpu_gpu_predictions_match": true,
+  "reversed_order_predictions_match": true,
+  "all_candidate_metrics_recomputed": true,
+  "selected_model_sha256": "96b3e43d433f21c7fb9b20147b65ea20ca77e218a536fa991ff1da1d453a7072"
+}

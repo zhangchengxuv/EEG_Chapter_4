@@ -1,0 +1,7 @@
+# 本轮实际使用版本；GPU 版 PyTorch 复用 conda pytorch 环境中的 2.7.0+cu126。
+numpy==1.26.4
+scipy==1.13.1
+torch==2.7.0
+matplotlib==3.9.4
+# 仅原始数据包附带的 load_dataset.py 需要 pandas；主训练代码使用标准库 csv。
+pandas==2.3.1

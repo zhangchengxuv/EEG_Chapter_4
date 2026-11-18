@@ -1,0 +1,14 @@
+{
+  "source_hashes_unchanged": true,
+  "all_original_package_hashes_unchanged": true,
+  "training_statistics_verified": true,
+  "loaded_model_parameter_count": 9428,
+  "validation_signals_only_cli_correct": 128,
+  "validation_count": 128,
+  "saved_validation_probabilities_match": true,
+  "test_prediction_records_verified": 128,
+  "flagged_test_trials_retained": 2,
+  "test_inference_repeated_for_verification": false,
+  "unit_tests_passed": 6,
+  "inference_source_sha256": "001e98da7b41404bc95b488f011621d57583f951193960f5755cc650351afc8b"
+}

@@ -1,0 +1,10 @@
+{
+  "candidate": "energy_regularized_seed42",
+  "architecture": "energy_regularized",
+  "family": "energy",
+  "seed": 42,
+  "best_epoch": 297,
+  "epochs_run": 300,
+  "validation_accuracy": 1.0,
+  "validation_loss": 0.04985681548714638
+}
